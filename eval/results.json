@@ -1,0 +1,5686 @@
+{
+ "uretim_zamani": "2026-10-15T13:55:12+00:00",
+ "git": "9f3f9b6",
+ "ortam": {
+  "python": "3.11.7",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "islemci": "arm"
+ },
+ "ayarlar": {
+  "k": 5,
+  "yogun_model": "BAAI/bge-m3",
+  "reddetme_esigi": 0.5,
+  "bm25": "rank_bm25.BM25Okapi, Türkçe küçük harf + F5 kök",
+  "fuzyon": "RRF k=60",
+  "dokuman_sayisi": 709
+ },
+ "soru_sayisi": 42,
+ "sonuclar": {
+  "A_duz_rag": {
+   "soru_basina": {
+    "T01": {
+     "getirilen": [
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7625262141227722,
+     "aday_max_kosinus": 0.7625262141227722,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T02": {
+     "getirilen": [
+      "kanun:2547/m13@2025-07-01",
+      "kanun:2547/m13@2018-06-24",
+      "kanun:2547/m13@2016-10-29",
+      "kanun:2547/m13@2008-06-28",
+      "kanun:2547/ih3826-gm1@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/m13@2025-07-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.4,
+     "max_kosinus": 0.7966228127479553,
+     "aday_max_kosinus": 0.7966228127479553,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T03": {
+     "getirilen": [
+      "yonetmelik:15287/m33@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "kanun:2547/gm46@2000-06-28"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m33@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7334352135658264,
+     "aday_max_kosinus": 0.7334352135658264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11",
+      "yonerge:etu-ortak-egitim/m12@2024-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m6@2016-02-11",
+      "yonerge:etu-ortak-egitim/m7@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.753634512424469,
+     "aday_max_kosinus": 0.753634512424469,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T05": {
+     "getirilen": [
+      "kanun:2547/m26@2008-06-28",
+      "yonetmelik:24672/m3@2021-03-09",
+      "kanun:2547/m25@2008-06-28",
+      "yonetmelik:24672/m12@2018-06-12",
+      "kanun:2547/m24@2021-01-01"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "max_kosinus": 0.7444193363189697,
+     "aday_max_kosinus": 0.7444193363189697,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T06": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m7@2024-08-21",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m8@2016-09-08",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m7@2024-08-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8067100048065186,
+     "aday_max_kosinus": 0.8067100048065186,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T07": {
+     "getirilen": [
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m6@2004-07-21",
+      "kanun:2547/m6@2024-04-05",
+      "kanun:2547/m9@1983-08-19"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 0.4,
+     "max_kosinus": 0.7748925685882568,
+     "aday_max_kosinus": 0.7748925685882568,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T08": {
+     "getirilen": [
+      "yonetmelik:42791/m27@2025-12-21",
+      "yonetmelik:21510/m19@2016-04-20",
+      "yonetmelik:42791/m23@2025-12-21",
+      "yonetmelik:21510/m16@2020-04-14",
+      "yonetmelik:42791/m29@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:42791/m27@2025-12-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "max_kosinus": 0.7300450205802917,
+     "aday_max_kosinus": 0.7300450205802917,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T09": {
+     "getirilen": [
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m5@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7811224460601807,
+     "aday_max_kosinus": 0.7811224460601807,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T10": {
+     "getirilen": [
+      "yonetmelik:13948/m15@2010-04-24",
+      "yonetmelik:13948/m14@2021-04-09",
+      "yonetmelik:13948/m14@2026-02-28",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m11@2019-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.4,
+     "max_kosinus": 0.7075828313827515,
+     "aday_max_kosinus": 0.7075828313827515,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "Z01a": {
+     "getirilen": [
+      "kanun:2547/m29@2018-03-06",
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m6@2024-04-05",
+      "kanun:2547/m11@2018-03-06"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 0.0,
+     "max_kosinus": 0.7071571350097656,
+     "aday_max_kosinus": 0.7071571350097656,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z01b": {
+     "getirilen": [
+      "kanun:2547/m29@2018-03-06",
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m6@2024-04-05",
+      "kanun:2547/m11@2018-03-06"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.7071571350097656,
+     "aday_max_kosinus": 0.7071571350097656,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02a": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2018-03-06",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm9@1981-11-06",
+      "kanun:2547/m25@2008-06-28"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.6354526281356812,
+     "aday_max_kosinus": 0.6354526281356812,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02b": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2018-03-06",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm9@1981-11-06",
+      "kanun:2547/m25@2008-06-28"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.6354526281356812,
+     "aday_max_kosinus": 0.6354526281356812,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03a": {
+     "getirilen": [
+      "kanun:2547/m54@2024-02-22",
+      "kanun:2547/m54@2011-04-28",
+      "kanun:2547/m54@2023-02-09",
+      "kanun:2547/m53Ç@2016-12-09",
+      "kanun:2547/m53D@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2011-04-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.8005682826042175,
+     "aday_max_kosinus": 0.8005682826042175,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03b": {
+     "getirilen": [
+      "kanun:2547/m54@2024-02-22",
+      "kanun:2547/m54@2011-04-28",
+      "kanun:2547/m54@2023-02-09",
+      "kanun:2547/m53Ç@2016-12-09",
+      "kanun:2547/m53D@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2023-02-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.4,
+     "max_kosinus": 0.8005682826042175,
+     "aday_max_kosinus": 0.8005682826042175,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04a": {
+     "getirilen": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/gm46@2000-06-28",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "kanun:2547/gm50@2005-03-18",
+      "kanun:2547/m44@2026-08-09"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04b": {
+     "getirilen": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/gm46@2000-06-28",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "kanun:2547/gm50@2005-03-18",
+      "kanun:2547/m44@2026-08-09"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05a": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m14@2026-02-28",
+      "yonetmelik:13948/m24@2010-04-24"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.769128680229187,
+     "aday_max_kosinus": 0.769128680229187,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05b": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m14@2026-02-28",
+      "yonetmelik:13948/m24@2010-04-24"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2023-07-16"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.769128680229187,
+     "aday_max_kosinus": 0.769128680229187,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06a": {
+     "getirilen": [
+      "yonetmelik:42791/m24@2025-12-21",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:21510/m16@2026-03-06",
+      "yonetmelik:42791/m13@2025-12-21",
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.2,
+     "max_kosinus": 0.7295621037483215,
+     "aday_max_kosinus": 0.7295621037483215,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06b": {
+     "getirilen": [
+      "yonetmelik:42791/m24@2025-12-21",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:21510/m16@2026-03-06",
+      "yonetmelik:42791/m13@2025-12-21",
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "max_kosinus": 0.7295621037483215,
+     "aday_max_kosinus": 0.7295621037483215,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07a": {
+     "getirilen": [
+      "kanun:2547/em38@2022-07-05",
+      "kanun:2547/em38@2017-06-18",
+      "kanun:2547/em38@2021-01-01",
+      "kanun:2547/em34@2022-07-05",
+      "kanun:2547/em34@2017-01-01"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.2,
+     "max_kosinus": 0.7457564473152161,
+     "aday_max_kosinus": 0.7457564473152161,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07b": {
+     "getirilen": [
+      "kanun:2547/em38@2022-07-05",
+      "kanun:2547/em38@2017-06-18",
+      "kanun:2547/em38@2021-01-01",
+      "kanun:2547/em34@2022-07-05",
+      "kanun:2547/em34@2017-01-01"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2022-07-05"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.4,
+     "max_kosinus": 0.7457564473152161,
+     "aday_max_kosinus": 0.7457564473152161,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08a": {
+     "getirilen": [
+      "kanun:2547/m34@2025-07-01",
+      "kanun:2547/m34@2018-06-24",
+      "kanun:2547/m34@2016-08-13",
+      "kanun:2547/m34@1983-08-19",
+      "kanun:2547/m34@2024-08-22"
+     ],
+     "dogru": [
+      "kanun:2547/m34@1983-08-19"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.2,
+     "max_kosinus": 0.7774035334587097,
+     "aday_max_kosinus": 0.7774035334587097,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08b": {
+     "getirilen": [
+      "kanun:2547/m34@2025-07-01",
+      "kanun:2547/m34@2018-06-24",
+      "kanun:2547/m34@2016-08-13",
+      "kanun:2547/m34@1983-08-19",
+      "kanun:2547/m34@2024-08-22"
+     ],
+     "dogru": [
+      "kanun:2547/m34@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.2,
+     "max_kosinus": 0.7774035334587097,
+     "aday_max_kosinus": 0.7774035334587097,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "H01": {
+     "getirilen": [
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonetmelik:15287/m35@2011-09-01",
+      "yonerge:etu-cap/m4@2017-09-01",
+      "yonerge:etu-cap/m10@2024-01-04",
+      "yonetmelik:13948/m16@2026-02-28"
+     ],
+     "dogru": [
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonetmelik:13948/m16@2026-02-28"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7586098313331604,
+     "aday_max_kosinus": 0.7586098313331604,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H02": {
+     "getirilen": [
+      "yonerge:etu-yandal/m7@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-yandal/m2@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7287720441818237,
+     "aday_max_kosinus": 0.7287720441818237,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H03": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m4@2025-10-22",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonerge:etu-hazirlik/m15@2015-08-07"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonetmelik:21475/m6@2016-03-23"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527263164520264,
+     "aday_max_kosinus": 0.7527263164520264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H04": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonetmelik:42791/m15@2025-12-21",
+      "kanun:2547/m44@2026-08-09"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/m44@2026-08-09"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7231804728507996,
+     "aday_max_kosinus": 0.7231804728507996,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H05": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m38@2016-02-11",
+      "yonerge:etu-ortak-egitim/m1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/m38@2011-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527247667312622,
+     "aday_max_kosinus": 0.7527247667312622,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H06": {
+     "getirilen": [
+      "yonetmelik:24672/m8@2018-06-12",
+      "kanun:2547/gm8@1989-06-17",
+      "yonetmelik:24672/m12@2018-06-12",
+      "kanun:2547/m25@2008-06-28",
+      "kanun:2547/m24@2021-01-01"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m8@2018-06-12",
+      "kanun:2547/m24@2021-01-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7699025869369507,
+     "aday_max_kosinus": 0.7699025869369507,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H07": {
+     "getirilen": [
+      "yonetmelik:21475/m8@2021-05-18",
+      "yonetmelik:21475/m7@2016-03-23",
+      "yonetmelik:21475/m4@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonetmelik:15287/m13@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m7@2016-03-23"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7352604866027832,
+     "aday_max_kosinus": 0.7352604866027832,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H08": {
+     "getirilen": [
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21",
+      "yonetmelik:42791/m4@2025-12-21",
+      "yonetmelik:42791/m5@2025-12-21",
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7446197271347046,
+     "aday_max_kosinus": 0.7446197271347046,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "I01": {
+     "getirilen": [
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonetmelik:15287/m32@2011-09-01",
+      "yonetmelik:15287/m56@2011-09-01",
+      "kanun:2547/gm58@2011-02-25",
+      "yonerge:etu-hazirlik/gm2@2022-07-28"
+     ],
+     "dogru": [
+      "yonetmelik:15287/gm1@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.7403502464294434,
+     "aday_max_kosinus": 0.7403502464294434,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I02": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m14@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m24@2010-04-24"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 0.6,
+     "max_kosinus": 0.6930994987487793,
+     "aday_max_kosinus": 0.6930994987487793,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I03": {
+     "getirilen": [
+      "yonetmelik:21510/gm1@2019-11-22",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:21510/m35@2026-03-06",
+      "yonetmelik:21510/m35@2020-06-10",
+      "yonetmelik:13948/m23@2016-03-18"
+     ],
+     "dogru": [
+      "yonetmelik:21510/gm1@2019-11-22"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.4,
+     "max_kosinus": 0.7034265995025635,
+     "aday_max_kosinus": 0.7034265995025635,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m37@2016-02-11",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonerge:etu-ortak-egitim/m16@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 0.8,
+     "max_kosinus": 0.8234586715698242,
+     "aday_max_kosinus": 0.8234586715698242,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "C01": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m25@2026-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "yonerge:etu-ortak-egitim/gm4@2020-04-13",
+      "yonerge:etu-ortak-egitim/gm12@2021-01-21",
+      "yonerge:etu-ortak-egitim/gm8@2020-08-27"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5873568654060364,
+     "aday_max_kosinus": 0.5873568654060364,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C02": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "kanun:2547/gm17@1981-11-06",
+      "kanun:2547/em9@2025-12-19",
+      "yonetmelik:15287/m32@2011-09-01",
+      "usul_esas:etu-yatay-gecis/m3@2016-06-09"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5690597295761108,
+     "aday_max_kosinus": 0.5690597295761108,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C03": {
+     "getirilen": [
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m59@1997-07-05",
+      "kanun:2547/em3@2020-10-16",
+      "kanun:2547/m14@1981-11-06",
+      "kanun:2547/m61@1981-11-06"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5639408230781555,
+     "aday_max_kosinus": 0.5639408230781555,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C04": {
+     "getirilen": [],
+     "dogru": [],
+     "reddetti": true,
+     "max_kosinus": 0.494894802570343,
+     "aday_max_kosinus": 0.494894802570343,
+     "yollar": [],
+     "tur": "cevaplanamaz"
+    }
+   },
+   "ozet": {
+    "tek_madde": {
+     "n": 10,
+     "kesinlik@5": 0.18,
+     "duyarlilik@5": 0.9,
+     "madde_duyarlilik@5": 0.9,
+     "yururluk_dogrulugu": 0.78
+    },
+    "zamansal": {
+     "n": 16,
+     "kesinlik@5": 0.138,
+     "duyarlilik@5": 0.688,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 0.475
+    },
+    "hiyerarsi": {
+     "n": 8,
+     "kesinlik@5": 0.325,
+     "duyarlilik@5": 0.812,
+     "madde_duyarlilik@5": 0.812,
+     "yururluk_dogrulugu": 0.975,
+     "hiyerarsi_kapsamasi": 0.625
+    },
+    "intibak": {
+     "n": 4,
+     "kesinlik@5": 0.25,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 0.6
+    },
+    "cevaplanabilir": {
+     "n": 38,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 0.789,
+     "madde_duyarlilik@5": 0.868,
+     "yururluk_dogrulugu": 0.674
+    },
+    "cevaplanamaz": {
+     "n": 4,
+     "reddetme": 0.25
+    }
+   },
+   "sure_sn": 1.88
+  },
+  "B_kademe_lite": {
+   "soru_basina": {
+    "T01": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:42791/m18@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7625262141227722,
+     "aday_max_kosinus": 0.7625262141227722,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T02": {
+     "getirilen": [
+      "kanun:2547/m13@2025-07-01",
+      "kanun:2547/ih3826-gm1@1981-11-06",
+      "kanun:2547/m52@2011-03-03",
+      "kanun:2547/m15@2006-03-17",
+      "kanun:2547/em5@1999-12-30"
+     ],
+     "dogru": [
+      "kanun:2547/m13@2025-07-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7966228127479553,
+     "aday_max_kosinus": 0.7966228127479553,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T03": {
+     "getirilen": [
+      "kanun:2547/gm46@2000-06-28",
+      "yonetmelik:15287/m33@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonerge:etu-cap/m9@2017-09-01",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m33@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7334352135658264,
+     "aday_max_kosinus": 0.7334352135658264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_asagi",
+      "graf:DAYANAK_asagi"
+     ],
+     "tur": "tek_madde"
+    },
+    "T04": {
+     "getirilen": [
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m5@2016-02-11",
+      "yonerge:etu-ortak-egitim/m12@2024-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m6@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.753634512424469,
+     "aday_max_kosinus": 0.753634512424469,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T05": {
+     "getirilen": [
+      "kanun:2547/m26@2008-06-28",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm8@1989-06-17",
+      "yonetmelik:24672/m3@2021-03-09",
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7444193363189697,
+     "aday_max_kosinus": 0.7444193363189697,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T06": {
+     "getirilen": [
+      "yonetmelik:21475/m4@2016-03-23",
+      "yonerge:etu-hazirlik/m7@2024-08-21",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m8@2016-09-08"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m7@2024-08-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8067100048065186,
+     "aday_max_kosinus": 0.8067100048065186,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T07": {
+     "getirilen": [
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m9@1983-08-19",
+      "kanun:2547/m8@2026-08-09",
+      "kanun:2547/m7@2018-06-24",
+      "kanun:2547/ih2653-gm1@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/m7@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8096774220466614,
+     "aday_max_kosinus": 0.8096774220466614,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T08": {
+     "getirilen": [
+      "yonetmelik:21510/m19@2016-04-20",
+      "yonetmelik:42791/m27@2025-12-21",
+      "yonetmelik:42791/m23@2025-12-21",
+      "yonetmelik:42791/m29@2025-12-21",
+      "yonerge:etu-hazirlik/m16@2022-07-28"
+     ],
+     "dogru": [
+      "yonetmelik:42791/m27@2025-12-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7300450205802917,
+     "aday_max_kosinus": 0.7300450205802917,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T09": {
+     "getirilen": [
+      "yonetmelik:13948/m18@2010-04-24",
+      "yonetmelik:13948/m19@2023-07-16",
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-cap/m5@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m5@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7811224460601807,
+     "aday_max_kosinus": 0.7811224460601807,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T10": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:13948/m15@2010-04-24",
+      "yonetmelik:13948/m14@2026-02-28",
+      "yonetmelik:13948/m24@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7075828313827515,
+     "aday_max_kosinus": 0.7075828313827515,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "Z01a": {
+     "getirilen": [
+      "kanun:2547/m6@2004-07-21",
+      "kanun:2547/m53E@2016-12-09",
+      "kanun:2547/m3@2016-02-26",
+      "kanun:2547/m8@2016-10-29",
+      "kanun:2547/m53@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2016-02-26"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6807429194450378,
+     "aday_max_kosinus": 0.6807429194450378,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z01b": {
+     "getirilen": [
+      "kanun:2547/m29@2018-03-06",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m3@2018-03-06",
+      "kanun:2547/m53E@2021-01-01"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7071571350097656,
+     "aday_max_kosinus": 0.7071571350097656,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02a": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/gm9@1981-11-06",
+      "kanun:2547/m25@2008-06-28",
+      "kanun:2547/m26@2008-06-28",
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6354526281356812,
+     "aday_max_kosinus": 0.6354526281356812,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02b": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2018-03-06",
+      "kanun:2547/gm9@1981-11-06",
+      "yonetmelik:24672/m12@2018-06-12",
+      "yonetmelik:24672/m8@2018-06-12"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6419519186019897,
+     "aday_max_kosinus": 0.6419519186019897,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03a": {
+     "getirilen": [
+      "kanun:2547/m54@2011-04-28",
+      "kanun:2547/m53Ç@2016-12-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53@2016-12-09",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2011-04-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7771860957145691,
+     "aday_max_kosinus": 0.7771860957145691,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03b": {
+     "getirilen": [
+      "kanun:2547/m54@2023-02-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53Ç@2019-04-10",
+      "kanun:2547/m53F@2021-01-01",
+      "yonetmelik:13948/m13@2019-12-21"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2023-02-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7995576858520508,
+     "aday_max_kosinus": 0.7995576858520508,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:ATIF"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04a": {
+     "getirilen": [
+      "kanun:2547/m44@2014-11-26",
+      "kanun:2547/gm46@2000-06-28",
+      "kanun:2547/gm50@2005-03-18",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2014-11-26"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04b": {
+     "getirilen": [
+      "kanun:2547/m44@2021-01-01",
+      "kanun:2547/gm46@2000-06-28",
+      "kanun:2547/gm50@2005-03-18",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05a": {
+     "getirilen": [
+      "kanun:2547/m7@2018-06-24",
+      "yonetmelik:13948/m14@2021-04-09",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.769128680229187,
+     "aday_max_kosinus": 0.769128680229187,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05b": {
+     "getirilen": [
+      "kanun:2547/m7@2018-06-24",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2023-07-16"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.767827033996582,
+     "aday_max_kosinus": 0.767827033996582,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06a": {
+     "getirilen": [
+      "kanun:2547/m44@2021-01-01",
+      "yonetmelik:21510/m16@2020-04-14",
+      "yonetmelik:21510/m30@2016-04-20",
+      "yonetmelik:21510/m15@2016-04-20",
+      "yonetmelik:21510/m35@2020-06-10"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7208300232887268,
+     "aday_max_kosinus": 0.7208300232887268,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06b": {
+     "getirilen": [
+      "kanun:2547/m44@2021-01-01",
+      "yonetmelik:21510/m16@2026-03-06",
+      "yonetmelik:42791/m24@2025-12-21",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:42791/m13@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7295621037483215,
+     "aday_max_kosinus": 0.7295621037483215,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07a": {
+     "getirilen": [
+      "kanun:2547/em38@2021-01-01",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/gm10@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7409815788269043,
+     "aday_max_kosinus": 0.7409815788269043,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07b": {
+     "getirilen": [
+      "kanun:2547/em38@2022-07-05",
+      "kanun:2547/em34@2022-07-05",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2022-07-05"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.741062581539154,
+     "aday_max_kosinus": 0.741062581539154,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08a": {
+     "getirilen": [
+      "kanun:2547/m34@1983-08-19",
+      "kanun:2547/m35@1983-08-19",
+      "kanun:2547/m65@2011-03-03",
+      "kanun:2547/m40@2004-09-17",
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "dogru": [
+      "kanun:2547/m34@1983-08-19"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7716270089149475,
+     "aday_max_kosinus": 0.7716270089149475,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08b": {
+     "getirilen": [
+      "kanun:2547/m34@2018-06-24",
+      "kanun:2547/m33@2018-03-06",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/m5@2018-06-24",
+      "yonetmelik:21475/gm1@2016-03-23"
+     ],
+     "dogru": [
+      "kanun:2547/m34@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7695320248603821,
+     "aday_max_kosinus": 0.7695320248603821,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "H01": {
+     "getirilen": [
+      "yonetmelik:13948/m16@2026-02-28",
+      "yonetmelik:15287/m35@2011-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonerge:etu-cap/m10@2024-01-04",
+      "yonerge:etu-cap/m9@2017-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m16@2026-02-28",
+      "yonerge:etu-cap/m5@2017-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7586098313331604,
+     "aday_max_kosinus": 0.7586098313331604,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_asagi",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H02": {
+     "getirilen": [
+      "yonetmelik:13948/m18@2010-04-24",
+      "yonetmelik:13948/m21@2010-04-24",
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonerge:etu-yandal/m7@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m18@2010-04-24",
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7105845212936401,
+     "aday_max_kosinus": 0.7105845212936401,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H03": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonerge:etu-hazirlik/m6@2025-10-22"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527263164520264,
+     "aday_max_kosinus": 0.7527263164520264,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H04": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:15287/m9@2011-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7231804728507996,
+     "aday_max_kosinus": 0.7231804728507996,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H05": {
+     "getirilen": [
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonerge:etu-ortak-egitim/m38@2016-02-11",
+      "yonerge:etu-ortak-egitim/m1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527247667312622,
+     "aday_max_kosinus": 0.7527247667312622,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_asagi",
+      "graf:DAYANAK_asagi",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H06": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm15@1981-11-06",
+      "yonetmelik:24672/m8@2018-06-12",
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2021-01-01",
+      "yonetmelik:24672/m8@2018-06-12"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7697535753250122,
+     "aday_max_kosinus": 0.7697535753250122,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H07": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21475/m8@2021-05-18",
+      "yonetmelik:21475/m7@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m7@2016-03-23"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7352604866027832,
+     "aday_max_kosinus": 0.7352604866027832,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_asagi"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H08": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21",
+      "yonetmelik:42791/m4@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7446197271347046,
+     "aday_max_kosinus": 0.7446197271347046,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "I01": {
+     "getirilen": [
+      "kanun:2547/gm58@2011-02-25",
+      "kanun:2547/gm43@1995-06-12",
+      "kanun:2547/gm46@2000-06-28",
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonetmelik:15287/m56@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:15287/gm1@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7403502464294434,
+     "aday_max_kosinus": 0.7403502464294434,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I02": {
+     "getirilen": [
+      "kanun:2547/m7@2018-06-24",
+      "yonetmelik:13948/m14@2021-04-09",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6930994987487793,
+     "aday_max_kosinus": 0.6930994987487793,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I03": {
+     "getirilen": [
+      "kanun:2547/m44@2014-11-26",
+      "yonetmelik:21510/gm1@2019-11-22",
+      "yonetmelik:13948/m23@2016-03-18",
+      "yonetmelik:15287/m43@2011-09-01",
+      "yonerge:etu-cap/m5@2017-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:21510/gm1@2019-11-22"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7034265995025635,
+     "aday_max_kosinus": 0.7034265995025635,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_asagi"
+     ],
+     "tur": "intibak"
+    },
+    "I04": {
+     "getirilen": [
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m37@2016-02-11",
+      "yonerge:etu-ortak-egitim/m16@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8234586715698242,
+     "aday_max_kosinus": 0.8234586715698242,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "C01": {
+     "getirilen": [
+      "yonetmelik:15287/m6@2011-09-01",
+      "yonerge:etu-hazirlik/m25@2026-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "yonerge:etu-ortak-egitim/gm4@2020-04-13",
+      "yonerge:etu-ortak-egitim/gm12@2021-01-21"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5873568654060364,
+     "aday_max_kosinus": 0.5873568654060364,
+     "yollar": [
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C02": {
+     "getirilen": [
+      "kanun:2547/gm17@1981-11-06",
+      "kanun:2547/em9@2025-12-19",
+      "yonetmelik:15287/m32@2011-09-01",
+      "yonetmelik:15287/m11@2011-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5690597295761108,
+     "aday_max_kosinus": 0.5690597295761108,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C03": {
+     "getirilen": [
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m59@1997-07-05",
+      "yonetmelik:21510/m20@2016-04-20",
+      "yonetmelik:15287/m31@2011-09-01",
+      "yonerge:etu-ortak-egitim/m31@2016-02-11"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5639408230781555,
+     "aday_max_kosinus": 0.5639408230781555,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C04": {
+     "getirilen": [],
+     "dogru": [],
+     "reddetti": true,
+     "max_kosinus": 0.4884220063686371,
+     "aday_max_kosinus": 0.4884220063686371,
+     "yollar": [],
+     "tur": "cevaplanamaz"
+    }
+   },
+   "ozet": {
+    "tek_madde": {
+     "n": 10,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 1.0,
+     "madde_duyarlilik@5": 1.0,
+     "yururluk_dogrulugu": 1.0
+    },
+    "zamansal": {
+     "n": 16,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 1.0,
+     "madde_duyarlilik@5": 1.0,
+     "yururluk_dogrulugu": 1.0
+    },
+    "hiyerarsi": {
+     "n": 8,
+     "kesinlik@5": 0.35,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsamasi": 0.75
+    },
+    "intibak": {
+     "n": 4,
+     "kesinlik@5": 0.25,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanabilir": {
+     "n": 38,
+     "kesinlik@5": 0.237,
+     "duyarlilik@5": 0.961,
+     "madde_duyarlilik@5": 0.961,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanamaz": {
+     "n": 4,
+     "reddetme": 0.25
+    }
+   },
+   "sure_sn": 1.62
+  },
+  "B-yalniz_tarih_filtresi": {
+   "soru_basina": {
+    "T01": {
+     "getirilen": [
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7625262141227722,
+     "aday_max_kosinus": 0.7625262141227722,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T02": {
+     "getirilen": [
+      "kanun:2547/m13@2025-07-01",
+      "kanun:2547/ih3826-gm1@1981-11-06",
+      "kanun:2547/m52@2011-03-03",
+      "kanun:2547/m15@2006-03-17",
+      "kanun:2547/em5@1999-12-30"
+     ],
+     "dogru": [
+      "kanun:2547/m13@2025-07-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7966228127479553,
+     "aday_max_kosinus": 0.7966228127479553,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T03": {
+     "getirilen": [
+      "yonetmelik:15287/m33@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "kanun:2547/gm46@2000-06-28"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m33@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7334352135658264,
+     "aday_max_kosinus": 0.7334352135658264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11",
+      "yonerge:etu-ortak-egitim/m12@2024-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m6@2016-02-11",
+      "yonerge:etu-ortak-egitim/m7@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.753634512424469,
+     "aday_max_kosinus": 0.753634512424469,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T05": {
+     "getirilen": [
+      "kanun:2547/m26@2008-06-28",
+      "yonetmelik:24672/m3@2021-03-09",
+      "yonetmelik:24672/m12@2018-06-12",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm8@1989-06-17"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7444193363189697,
+     "aday_max_kosinus": 0.7444193363189697,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T06": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m7@2024-08-21",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m8@2016-09-08",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m7@2024-08-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8067100048065186,
+     "aday_max_kosinus": 0.8067100048065186,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T07": {
+     "getirilen": [
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m9@1983-08-19",
+      "kanun:2547/m8@2026-08-09",
+      "kanun:2547/m7@2018-06-24",
+      "kanun:2547/ih2653-gm1@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/m7@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8096774220466614,
+     "aday_max_kosinus": 0.8096774220466614,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T08": {
+     "getirilen": [
+      "yonetmelik:42791/m27@2025-12-21",
+      "yonetmelik:21510/m19@2016-04-20",
+      "yonetmelik:42791/m23@2025-12-21",
+      "yonetmelik:42791/m29@2025-12-21",
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "dogru": [
+      "yonetmelik:42791/m27@2025-12-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7300450205802917,
+     "aday_max_kosinus": 0.7300450205802917,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T09": {
+     "getirilen": [
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m5@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7811224460601807,
+     "aday_max_kosinus": 0.7811224460601807,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T10": {
+     "getirilen": [
+      "yonetmelik:13948/m15@2010-04-24",
+      "yonetmelik:13948/m14@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07",
+      "yonetmelik:13948/m24@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m9@2016-06-09"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7075828313827515,
+     "aday_max_kosinus": 0.7075828313827515,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "Z01a": {
+     "getirilen": [
+      "kanun:2547/m6@2004-07-21",
+      "kanun:2547/m53E@2016-12-09",
+      "kanun:2547/m3@2016-02-26",
+      "kanun:2547/m8@2016-10-29",
+      "kanun:2547/m53@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2016-02-26"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6807429194450378,
+     "aday_max_kosinus": 0.6807429194450378,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z01b": {
+     "getirilen": [
+      "kanun:2547/m29@2018-03-06",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m3@2018-03-06",
+      "kanun:2547/m53E@2021-01-01"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7071571350097656,
+     "aday_max_kosinus": 0.7071571350097656,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02a": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/gm9@1981-11-06",
+      "kanun:2547/m25@2008-06-28",
+      "kanun:2547/m26@2008-06-28",
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6354526281356812,
+     "aday_max_kosinus": 0.6354526281356812,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02b": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2018-03-06",
+      "kanun:2547/gm9@1981-11-06",
+      "yonetmelik:24672/m12@2018-06-12",
+      "yonetmelik:24672/m8@2018-06-12"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6419519186019897,
+     "aday_max_kosinus": 0.6419519186019897,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03a": {
+     "getirilen": [
+      "kanun:2547/m54@2011-04-28",
+      "kanun:2547/m53Ç@2016-12-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53@2016-12-09",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2011-04-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7771860957145691,
+     "aday_max_kosinus": 0.7771860957145691,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03b": {
+     "getirilen": [
+      "kanun:2547/m54@2023-02-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53Ç@2019-04-10",
+      "kanun:2547/m53F@2021-01-01",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2023-02-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7995576858520508,
+     "aday_max_kosinus": 0.7995576858520508,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04a": {
+     "getirilen": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/gm46@2000-06-28",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "kanun:2547/gm50@2005-03-18",
+      "yonetmelik:15287/m34@2011-09-01"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04b": {
+     "getirilen": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/gm46@2000-06-28",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "kanun:2547/gm50@2005-03-18",
+      "yonetmelik:15287/m34@2011-09-01"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05a": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07",
+      "yonetmelik:13948/em2@2013-09-21"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.769128680229187,
+     "aday_max_kosinus": 0.769128680229187,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05b": {
+     "getirilen": [
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07",
+      "yonetmelik:13948/em2@2013-09-21"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2023-07-16"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.767827033996582,
+     "aday_max_kosinus": 0.767827033996582,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06a": {
+     "getirilen": [
+      "yonetmelik:21510/m16@2020-04-14",
+      "yonetmelik:21510/m30@2016-04-20",
+      "yonetmelik:21510/m15@2016-04-20",
+      "yonetmelik:21510/m35@2020-06-10",
+      "yonetmelik:21510/m5@2021-05-18"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7208300232887268,
+     "aday_max_kosinus": 0.7208300232887268,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06b": {
+     "getirilen": [
+      "yonetmelik:42791/m24@2025-12-21",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:21510/m16@2026-03-06",
+      "yonetmelik:42791/m13@2025-12-21",
+      "yonetmelik:42791/m34@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7295621037483215,
+     "aday_max_kosinus": 0.7295621037483215,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07a": {
+     "getirilen": [
+      "kanun:2547/em38@2021-01-01",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/gm10@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7409815788269043,
+     "aday_max_kosinus": 0.7409815788269043,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07b": {
+     "getirilen": [
+      "kanun:2547/em38@2022-07-05",
+      "kanun:2547/em34@2022-07-05",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2022-07-05"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.741062581539154,
+     "aday_max_kosinus": 0.741062581539154,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08a": {
+     "getirilen": [
+      "kanun:2547/m34@1983-08-19",
+      "kanun:2547/m35@1983-08-19",
+      "kanun:2547/m65@2011-03-03",
+      "kanun:2547/m40@2004-09-17",
+      "kanun:2547/m28@1983-08-19"
+     ],
+     "dogru": [
+      "kanun:2547/m34@1983-08-19"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7716270089149475,
+     "aday_max_kosinus": 0.7716270089149475,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08b": {
+     "getirilen": [
+      "kanun:2547/m34@2018-06-24",
+      "yonetmelik:21475/gm1@2016-03-23",
+      "kanun:2547/m33@2018-03-06",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/m65@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m34@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7695320248603821,
+     "aday_max_kosinus": 0.7695320248603821,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "H01": {
+     "getirilen": [
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonetmelik:15287/m35@2011-09-01",
+      "yonerge:etu-cap/m4@2017-09-01",
+      "yonerge:etu-cap/m10@2024-01-04",
+      "yonetmelik:13948/m16@2026-02-28"
+     ],
+     "dogru": [
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonetmelik:13948/m16@2026-02-28"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7586098313331604,
+     "aday_max_kosinus": 0.7586098313331604,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H02": {
+     "getirilen": [
+      "yonerge:etu-yandal/m7@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-yandal/m2@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7287720441818237,
+     "aday_max_kosinus": 0.7287720441818237,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H03": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m4@2025-10-22",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonerge:etu-hazirlik/m15@2015-08-07"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonetmelik:21475/m6@2016-03-23"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527263164520264,
+     "aday_max_kosinus": 0.7527263164520264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H04": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonetmelik:42791/m15@2025-12-21",
+      "kanun:2547/m44@2026-08-09"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/m44@2026-08-09"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7231804728507996,
+     "aday_max_kosinus": 0.7231804728507996,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H05": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m38@2016-02-11",
+      "yonerge:etu-ortak-egitim/m1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/m38@2011-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527247667312622,
+     "aday_max_kosinus": 0.7527247667312622,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H06": {
+     "getirilen": [
+      "yonetmelik:24672/m8@2018-06-12",
+      "kanun:2547/gm8@1989-06-17",
+      "yonetmelik:24672/m12@2018-06-12",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm15@1981-11-06"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m8@2018-06-12",
+      "kanun:2547/m24@2021-01-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7697535753250122,
+     "aday_max_kosinus": 0.7697535753250122,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H07": {
+     "getirilen": [
+      "yonetmelik:21475/m8@2021-05-18",
+      "yonetmelik:21475/m7@2016-03-23",
+      "yonetmelik:21475/m4@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonetmelik:15287/m13@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m7@2016-03-23"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7352604866027832,
+     "aday_max_kosinus": 0.7352604866027832,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H08": {
+     "getirilen": [
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21",
+      "yonetmelik:42791/m4@2025-12-21",
+      "yonetmelik:42791/m5@2025-12-21",
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7446197271347046,
+     "aday_max_kosinus": 0.7446197271347046,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "I01": {
+     "getirilen": [
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonetmelik:15287/m56@2011-09-01",
+      "kanun:2547/gm58@2011-02-25",
+      "kanun:2547/gm43@1995-06-12",
+      "kanun:2547/gm46@2000-06-28"
+     ],
+     "dogru": [
+      "yonetmelik:15287/gm1@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7403502464294434,
+     "aday_max_kosinus": 0.7403502464294434,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I02": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07",
+      "usul_esas:etu-yatay-gecis/m12@2018-01-11"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6930994987487793,
+     "aday_max_kosinus": 0.6930994987487793,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I03": {
+     "getirilen": [
+      "yonetmelik:21510/gm1@2019-11-22",
+      "yonetmelik:13948/m23@2016-03-18",
+      "yonetmelik:13948/m16@2019-12-21",
+      "yonetmelik:15287/m43@2011-09-01",
+      "yonetmelik:13948/m4@2019-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/gm1@2019-11-22"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7034265995025635,
+     "aday_max_kosinus": 0.7034265995025635,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m37@2016-02-11",
+      "yonerge:etu-ortak-egitim/m16@2016-02-11",
+      "yonerge:etu-ortak-egitim/m1@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8234586715698242,
+     "aday_max_kosinus": 0.8234586715698242,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "C01": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m25@2026-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "yonerge:etu-ortak-egitim/gm4@2020-04-13",
+      "yonerge:etu-ortak-egitim/gm12@2021-01-21",
+      "yonerge:etu-ortak-egitim/gm8@2020-08-27"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5873568654060364,
+     "aday_max_kosinus": 0.5873568654060364,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C02": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "kanun:2547/gm17@1981-11-06",
+      "kanun:2547/em9@2025-12-19",
+      "yonetmelik:15287/m32@2011-09-01",
+      "usul_esas:etu-yatay-gecis/m3@2016-06-09"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5690597295761108,
+     "aday_max_kosinus": 0.5690597295761108,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C03": {
+     "getirilen": [
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m59@1997-07-05",
+      "kanun:2547/em3@2020-10-16",
+      "kanun:2547/m14@1981-11-06",
+      "kanun:2547/m61@1981-11-06"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5639408230781555,
+     "aday_max_kosinus": 0.5639408230781555,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C04": {
+     "getirilen": [],
+     "dogru": [],
+     "reddetti": true,
+     "max_kosinus": 0.4884220063686371,
+     "aday_max_kosinus": 0.4884220063686371,
+     "yollar": [],
+     "tur": "cevaplanamaz"
+    }
+   },
+   "ozet": {
+    "tek_madde": {
+     "n": 10,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 1.0,
+     "madde_duyarlilik@5": 1.0,
+     "yururluk_dogrulugu": 1.0
+    },
+    "zamansal": {
+     "n": 16,
+     "kesinlik@5": 0.175,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0
+    },
+    "hiyerarsi": {
+     "n": 8,
+     "kesinlik@5": 0.325,
+     "duyarlilik@5": 0.812,
+     "madde_duyarlilik@5": 0.812,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsamasi": 0.625
+    },
+    "intibak": {
+     "n": 4,
+     "kesinlik@5": 0.25,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanabilir": {
+     "n": 38,
+     "kesinlik@5": 0.221,
+     "duyarlilik@5": 0.895,
+     "madde_duyarlilik@5": 0.895,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanamaz": {
+     "n": 4,
+     "reddetme": 0.25
+    }
+   },
+   "sure_sn": 1.76
+  },
+  "B-genisletme_yok": {
+   "soru_basina": {
+    "T01": {
+     "getirilen": [
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7625262141227722,
+     "aday_max_kosinus": 0.7625262141227722,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T02": {
+     "getirilen": [
+      "kanun:2547/m13@2025-07-01",
+      "kanun:2547/ih3826-gm1@1981-11-06",
+      "kanun:2547/m52@2011-03-03",
+      "kanun:2547/m15@2006-03-17",
+      "kanun:2547/em5@1999-12-30"
+     ],
+     "dogru": [
+      "kanun:2547/m13@2025-07-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7966228127479553,
+     "aday_max_kosinus": 0.7966228127479553,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T03": {
+     "getirilen": [
+      "kanun:2547/gm46@2000-06-28",
+      "yonetmelik:15287/m33@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonerge:etu-hazirlik/m6@2025-10-22"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m33@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7334352135658264,
+     "aday_max_kosinus": 0.7334352135658264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11",
+      "yonerge:etu-ortak-egitim/m12@2024-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m6@2016-02-11",
+      "yonerge:etu-ortak-egitim/m7@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.753634512424469,
+     "aday_max_kosinus": 0.753634512424469,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T05": {
+     "getirilen": [
+      "kanun:2547/m26@2008-06-28",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm8@1989-06-17",
+      "yonetmelik:24672/m3@2021-03-09",
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7444193363189697,
+     "aday_max_kosinus": 0.7444193363189697,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T06": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m7@2024-08-21",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m8@2016-09-08",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m7@2024-08-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8067100048065186,
+     "aday_max_kosinus": 0.8067100048065186,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T07": {
+     "getirilen": [
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m9@1983-08-19",
+      "kanun:2547/m8@2026-08-09",
+      "kanun:2547/m7@2018-06-24",
+      "kanun:2547/ih2653-gm1@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/m7@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8096774220466614,
+     "aday_max_kosinus": 0.8096774220466614,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T08": {
+     "getirilen": [
+      "yonetmelik:21510/m19@2016-04-20",
+      "yonetmelik:42791/m27@2025-12-21",
+      "yonetmelik:42791/m23@2025-12-21",
+      "yonetmelik:42791/m29@2025-12-21",
+      "yonerge:etu-hazirlik/m16@2022-07-28"
+     ],
+     "dogru": [
+      "yonetmelik:42791/m27@2025-12-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7300450205802917,
+     "aday_max_kosinus": 0.7300450205802917,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T09": {
+     "getirilen": [
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m5@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7811224460601807,
+     "aday_max_kosinus": 0.7811224460601807,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T10": {
+     "getirilen": [
+      "yonetmelik:13948/m15@2010-04-24",
+      "yonetmelik:13948/m14@2026-02-28",
+      "yonetmelik:13948/m24@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07",
+      "usul_esas:etu-yatay-gecis/m9@2016-06-09"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7075828313827515,
+     "aday_max_kosinus": 0.7075828313827515,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "Z01a": {
+     "getirilen": [
+      "kanun:2547/m6@2004-07-21",
+      "kanun:2547/m53E@2016-12-09",
+      "kanun:2547/m3@2016-02-26",
+      "kanun:2547/m8@2016-10-29",
+      "kanun:2547/m53@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2016-02-26"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6807429194450378,
+     "aday_max_kosinus": 0.6807429194450378,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z01b": {
+     "getirilen": [
+      "kanun:2547/m29@2018-03-06",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m3@2018-03-06",
+      "kanun:2547/m53E@2021-01-01"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7071571350097656,
+     "aday_max_kosinus": 0.7071571350097656,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02a": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/gm9@1981-11-06",
+      "kanun:2547/m25@2008-06-28",
+      "kanun:2547/m26@2008-06-28",
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6354526281356812,
+     "aday_max_kosinus": 0.6354526281356812,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02b": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2018-03-06",
+      "kanun:2547/gm9@1981-11-06",
+      "yonetmelik:24672/m12@2018-06-12",
+      "yonetmelik:24672/m8@2018-06-12"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6419519186019897,
+     "aday_max_kosinus": 0.6419519186019897,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03a": {
+     "getirilen": [
+      "kanun:2547/m54@2011-04-28",
+      "kanun:2547/m53Ç@2016-12-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53@2016-12-09",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2011-04-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7771860957145691,
+     "aday_max_kosinus": 0.7771860957145691,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03b": {
+     "getirilen": [
+      "kanun:2547/m54@2023-02-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53Ç@2019-04-10",
+      "kanun:2547/m53F@2021-01-01",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2023-02-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7995576858520508,
+     "aday_max_kosinus": 0.7995576858520508,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04a": {
+     "getirilen": [
+      "kanun:2547/gm46@2000-06-28",
+      "kanun:2547/gm50@2005-03-18",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04b": {
+     "getirilen": [
+      "kanun:2547/gm46@2000-06-28",
+      "kanun:2547/gm50@2005-03-18",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08"
+     ],
+     "dogru": [],
+     "kesinlik": 0.0,
+     "duyarlilik": 0.0,
+     "madde_duyarlilik": 0.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05a": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "yonetmelik:13948/m24@2010-04-24",
+      "yonetmelik:13948/em2@2013-09-21",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.769128680229187,
+     "aday_max_kosinus": 0.769128680229187,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05b": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m24@2010-04-24",
+      "yonetmelik:13948/em2@2013-09-21",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2023-07-16"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.767827033996582,
+     "aday_max_kosinus": 0.767827033996582,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06a": {
+     "getirilen": [
+      "yonetmelik:21510/m16@2020-04-14",
+      "yonetmelik:21510/m30@2016-04-20",
+      "yonetmelik:21510/m15@2016-04-20",
+      "yonetmelik:21510/m35@2020-06-10",
+      "yonetmelik:21510/m5@2021-05-18"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7208300232887268,
+     "aday_max_kosinus": 0.7208300232887268,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06b": {
+     "getirilen": [
+      "yonetmelik:21510/m16@2026-03-06",
+      "yonetmelik:42791/m24@2025-12-21",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:42791/m13@2025-12-21",
+      "yonetmelik:42791/m34@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7295621037483215,
+     "aday_max_kosinus": 0.7295621037483215,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07a": {
+     "getirilen": [
+      "kanun:2547/em38@2021-01-01",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/gm10@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7409815788269043,
+     "aday_max_kosinus": 0.7409815788269043,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07b": {
+     "getirilen": [
+      "kanun:2547/em38@2022-07-05",
+      "kanun:2547/em34@2022-07-05",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2022-07-05"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.741062581539154,
+     "aday_max_kosinus": 0.741062581539154,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08a": {
+     "getirilen": [
+      "kanun:2547/m34@1983-08-19",
+      "kanun:2547/m35@1983-08-19",
+      "kanun:2547/m65@2011-03-03",
+      "kanun:2547/m40@2004-09-17",
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "dogru": [
+      "kanun:2547/m34@1983-08-19"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7716270089149475,
+     "aday_max_kosinus": 0.7716270089149475,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08b": {
+     "getirilen": [
+      "kanun:2547/m34@2018-06-24",
+      "kanun:2547/m33@2018-03-06",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/m65@2016-12-09",
+      "yonetmelik:21475/gm1@2016-03-23"
+     ],
+     "dogru": [
+      "kanun:2547/m34@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7695320248603821,
+     "aday_max_kosinus": 0.7695320248603821,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "H01": {
+     "getirilen": [
+      "yonetmelik:13948/m16@2026-02-28",
+      "yonetmelik:15287/m35@2011-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonerge:etu-cap/m4@2017-09-01",
+      "yonerge:etu-cap/m10@2024-01-04"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m16@2026-02-28",
+      "yonerge:etu-cap/m5@2017-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7586098313331604,
+     "aday_max_kosinus": 0.7586098313331604,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H02": {
+     "getirilen": [
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonerge:etu-yandal/m7@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m7@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7105845212936401,
+     "aday_max_kosinus": 0.7105845212936401,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H03": {
+     "getirilen": [
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m4@2025-10-22",
+      "yonerge:etu-hazirlik/m15@2015-08-07"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonerge:etu-hazirlik/m6@2025-10-22"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527263164520264,
+     "aday_max_kosinus": 0.7527263164520264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H04": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:15287/m9@2011-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7231804728507996,
+     "aday_max_kosinus": 0.7231804728507996,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H05": {
+     "getirilen": [
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonerge:etu-ortak-egitim/m38@2016-02-11",
+      "yonerge:etu-ortak-egitim/m1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527247667312622,
+     "aday_max_kosinus": 0.7527247667312622,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H06": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm15@1981-11-06",
+      "yonetmelik:24672/m8@2018-06-12",
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2021-01-01",
+      "yonetmelik:24672/m8@2018-06-12"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7697535753250122,
+     "aday_max_kosinus": 0.7697535753250122,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H07": {
+     "getirilen": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:21475/m8@2021-05-18",
+      "yonetmelik:21475/m7@2016-03-23",
+      "yonetmelik:21475/m4@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m7@2016-03-23"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7352604866027832,
+     "aday_max_kosinus": 0.7352604866027832,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H08": {
+     "getirilen": [
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21",
+      "yonetmelik:42791/m4@2025-12-21",
+      "yonetmelik:42791/m5@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7446197271347046,
+     "aday_max_kosinus": 0.7446197271347046,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "I01": {
+     "getirilen": [
+      "kanun:2547/gm58@2011-02-25",
+      "kanun:2547/gm43@1995-06-12",
+      "kanun:2547/gm46@2000-06-28",
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonetmelik:15287/m56@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:15287/gm1@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7403502464294434,
+     "aday_max_kosinus": 0.7403502464294434,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I02": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07",
+      "usul_esas:etu-yatay-gecis/m12@2018-01-11"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6930994987487793,
+     "aday_max_kosinus": 0.6930994987487793,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I03": {
+     "getirilen": [
+      "kanun:2547/gm43@1995-06-12",
+      "yonetmelik:21510/gm1@2019-11-22",
+      "yonetmelik:13948/m23@2016-03-18",
+      "yonetmelik:13948/m16@2019-12-21",
+      "yonetmelik:15287/m43@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:21510/gm1@2019-11-22"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7034265995025635,
+     "aday_max_kosinus": 0.7034265995025635,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m37@2016-02-11",
+      "yonerge:etu-ortak-egitim/m16@2016-02-11",
+      "yonerge:etu-ortak-egitim/m1@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8234586715698242,
+     "aday_max_kosinus": 0.8234586715698242,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "C01": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m25@2026-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "yonerge:etu-ortak-egitim/gm4@2020-04-13",
+      "yonerge:etu-ortak-egitim/gm12@2021-01-21",
+      "yonerge:etu-ortak-egitim/gm8@2020-08-27"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5873568654060364,
+     "aday_max_kosinus": 0.5873568654060364,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C02": {
+     "getirilen": [
+      "kanun:2547/gm17@1981-11-06",
+      "kanun:2547/em9@2025-12-19",
+      "yonetmelik:15287/m32@2011-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "usul_esas:etu-yatay-gecis/m3@2016-06-09"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5690597295761108,
+     "aday_max_kosinus": 0.5690597295761108,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C03": {
+     "getirilen": [
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m59@1997-07-05",
+      "yonetmelik:21510/m20@2016-04-20",
+      "yonetmelik:15287/m31@2011-09-01",
+      "yonerge:etu-ortak-egitim/m31@2016-02-11"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5639408230781555,
+     "aday_max_kosinus": 0.5639408230781555,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C04": {
+     "getirilen": [],
+     "dogru": [],
+     "reddetti": true,
+     "max_kosinus": 0.4884220063686371,
+     "aday_max_kosinus": 0.4884220063686371,
+     "yollar": [],
+     "tur": "cevaplanamaz"
+    }
+   },
+   "ozet": {
+    "tek_madde": {
+     "n": 10,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 1.0,
+     "madde_duyarlilik@5": 1.0,
+     "yururluk_dogrulugu": 1.0
+    },
+    "zamansal": {
+     "n": 16,
+     "kesinlik@5": 0.175,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0
+    },
+    "hiyerarsi": {
+     "n": 8,
+     "kesinlik@5": 0.325,
+     "duyarlilik@5": 0.812,
+     "madde_duyarlilik@5": 0.812,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsamasi": 0.625
+    },
+    "intibak": {
+     "n": 4,
+     "kesinlik@5": 0.25,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanabilir": {
+     "n": 38,
+     "kesinlik@5": 0.221,
+     "duyarlilik@5": 0.895,
+     "madde_duyarlilik@5": 0.895,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanamaz": {
+     "n": 4,
+     "reddetme": 0.25
+    }
+   },
+   "sure_sn": 1.68
+  },
+  "B-katman_onceligi_yok": {
+   "soru_basina": {
+    "T01": {
+     "getirilen": [
+      "yonetmelik:21510/m7@2016-04-20",
+      "yonetmelik:21510/m17@2016-04-20",
+      "yonetmelik:42791/m25@2025-12-21",
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7625262141227722,
+     "aday_max_kosinus": 0.7625262141227722,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T02": {
+     "getirilen": [
+      "kanun:2547/m13@2025-07-01",
+      "kanun:2547/ih3826-gm1@1981-11-06",
+      "kanun:2547/m52@2011-03-03",
+      "kanun:2547/m15@2006-03-17",
+      "kanun:2547/em5@1999-12-30"
+     ],
+     "dogru": [
+      "kanun:2547/m13@2025-07-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7966228127479553,
+     "aday_max_kosinus": 0.7966228127479553,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T03": {
+     "getirilen": [
+      "yonetmelik:15287/m33@2011-09-01",
+      "yonetmelik:15287/m34@2011-09-01",
+      "yonerge:etu-cap/m9@2017-09-01",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/gm1@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:15287/m33@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7334352135658264,
+     "aday_max_kosinus": 0.7334352135658264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_asagi",
+      "graf:DAYANAK_asagi",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11",
+      "yonerge:etu-ortak-egitim/m12@2024-09-01",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonerge:etu-ortak-egitim/m6@2016-02-11",
+      "yonetmelik:15287/m38@2011-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m5@2016-02-11"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.753634512424469,
+     "aday_max_kosinus": 0.753634512424469,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari"
+     ],
+     "tur": "tek_madde"
+    },
+    "T05": {
+     "getirilen": [
+      "kanun:2547/m26@2008-06-28",
+      "yonetmelik:24672/m3@2021-03-09",
+      "yonetmelik:24672/m12@2018-06-12",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm8@1989-06-17"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m12@2018-06-12"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7444193363189697,
+     "aday_max_kosinus": 0.7444193363189697,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T06": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m7@2024-08-21",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m8@2016-09-08",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m7@2024-08-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8067100048065186,
+     "aday_max_kosinus": 0.8067100048065186,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T07": {
+     "getirilen": [
+      "kanun:2547/m6@2025-07-01",
+      "kanun:2547/m9@1983-08-19",
+      "kanun:2547/m8@2026-08-09",
+      "kanun:2547/m7@2018-06-24",
+      "kanun:2547/ih2653-gm1@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/m7@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8096774220466614,
+     "aday_max_kosinus": 0.8096774220466614,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T08": {
+     "getirilen": [
+      "yonetmelik:42791/m27@2025-12-21",
+      "yonetmelik:21510/m19@2016-04-20",
+      "yonetmelik:42791/m23@2025-12-21",
+      "yonetmelik:42791/m29@2025-12-21",
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "dogru": [
+      "yonetmelik:42791/m27@2025-12-21"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7300450205802917,
+     "aday_max_kosinus": 0.7300450205802917,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "T09": {
+     "getirilen": [
+      "yonerge:etu-yandal/m5@2017-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonetmelik:13948/m18@2010-04-24",
+      "yonetmelik:13948/m19@2023-07-16"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m5@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7811224460601807,
+     "aday_max_kosinus": 0.7811224460601807,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari"
+     ],
+     "tur": "tek_madde"
+    },
+    "T10": {
+     "getirilen": [
+      "yonetmelik:13948/m15@2010-04-24",
+      "yonetmelik:13948/m14@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07",
+      "yonetmelik:13948/m24@2026-02-28",
+      "usul_esas:etu-yatay-gecis/m9@2016-06-09"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m15@2010-04-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7075828313827515,
+     "aday_max_kosinus": 0.7075828313827515,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "tek_madde"
+    },
+    "Z01a": {
+     "getirilen": [
+      "kanun:2547/m6@2004-07-21",
+      "kanun:2547/m53E@2016-12-09",
+      "kanun:2547/m3@2016-02-26",
+      "kanun:2547/m8@2016-10-29",
+      "kanun:2547/m53@2016-12-09"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2016-02-26"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6807429194450378,
+     "aday_max_kosinus": 0.6807429194450378,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z01b": {
+     "getirilen": [
+      "kanun:2547/m29@2018-03-06",
+      "kanun:2547/m6@2018-06-24",
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m3@2018-03-06",
+      "kanun:2547/m53E@2021-01-01"
+     ],
+     "dogru": [
+      "kanun:2547/m3@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7071571350097656,
+     "aday_max_kosinus": 0.7071571350097656,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02a": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/gm9@1981-11-06",
+      "kanun:2547/m25@2008-06-28",
+      "kanun:2547/m26@2008-06-28",
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2008-06-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6354526281356812,
+     "aday_max_kosinus": 0.6354526281356812,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z02b": {
+     "getirilen": [
+      "kanun:2547/gm8@1989-06-17",
+      "kanun:2547/m24@2018-03-06",
+      "kanun:2547/gm9@1981-11-06",
+      "yonetmelik:24672/m12@2018-06-12",
+      "yonetmelik:24672/m8@2018-06-12"
+     ],
+     "dogru": [
+      "kanun:2547/m24@2018-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6419519186019897,
+     "aday_max_kosinus": 0.6419519186019897,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03a": {
+     "getirilen": [
+      "kanun:2547/m54@2011-04-28",
+      "kanun:2547/m53Ç@2016-12-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53@2016-12-09",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2011-04-28"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7771860957145691,
+     "aday_max_kosinus": 0.7771860957145691,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z03b": {
+     "getirilen": [
+      "kanun:2547/m54@2023-02-09",
+      "kanun:2547/m53D@2016-12-09",
+      "kanun:2547/m53Ç@2019-04-10",
+      "kanun:2547/m53F@2021-01-01",
+      "kanun:2547/m53C@2016-12-02"
+     ],
+     "dogru": [
+      "kanun:2547/m54@2023-02-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7995576858520508,
+     "aday_max_kosinus": 0.7995576858520508,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04a": {
+     "getirilen": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/gm46@2000-06-28",
+      "kanun:2547/m44@2014-11-26",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "kanun:2547/gm50@2005-03-18"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2014-11-26"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z04b": {
+     "getirilen": [
+      "yonetmelik:15287/m9@2011-09-01",
+      "kanun:2547/gm46@2000-06-28",
+      "kanun:2547/m44@2021-01-01",
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "kanun:2547/gm50@2005-03-18"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6668581366539001,
+     "aday_max_kosinus": 0.6668581366539001,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05a": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07",
+      "yonetmelik:13948/em2@2013-09-21"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.769128680229187,
+     "aday_max_kosinus": 0.769128680229187,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z05b": {
+     "getirilen": [
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m14@2023-07-16",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m1@2015-08-07",
+      "yonetmelik:13948/em2@2013-09-21"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2023-07-16"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.767827033996582,
+     "aday_max_kosinus": 0.767827033996582,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06a": {
+     "getirilen": [
+      "yonetmelik:21510/m16@2020-04-14",
+      "yonetmelik:21510/m30@2016-04-20",
+      "yonetmelik:21510/m15@2016-04-20",
+      "yonetmelik:21510/m35@2020-06-10",
+      "yonetmelik:21510/m5@2021-05-18"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2020-04-14"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7208300232887268,
+     "aday_max_kosinus": 0.7208300232887268,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z06b": {
+     "getirilen": [
+      "yonetmelik:42791/m24@2025-12-21",
+      "yonetmelik:42791/m6@2025-12-21",
+      "yonetmelik:21510/m16@2026-03-06",
+      "yonetmelik:42791/m13@2025-12-21",
+      "yonetmelik:42791/m34@2025-12-21"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m16@2026-03-06"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7295621037483215,
+     "aday_max_kosinus": 0.7295621037483215,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07a": {
+     "getirilen": [
+      "kanun:2547/em38@2021-01-01",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/gm10@1981-11-06"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2021-01-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7409815788269043,
+     "aday_max_kosinus": 0.7409815788269043,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z07b": {
+     "getirilen": [
+      "kanun:2547/em38@2022-07-05",
+      "kanun:2547/em34@2022-07-05",
+      "kanun:2547/m31@2021-01-01",
+      "kanun:2547/m33@2021-01-01",
+      "kanun:2547/m35@2014-11-26"
+     ],
+     "dogru": [
+      "kanun:2547/em38@2022-07-05"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.741062581539154,
+     "aday_max_kosinus": 0.741062581539154,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08a": {
+     "getirilen": [
+      "kanun:2547/m34@1983-08-19",
+      "kanun:2547/m35@1983-08-19",
+      "kanun:2547/m65@2011-03-03",
+      "kanun:2547/m40@2004-09-17",
+      "kanun:2547/m28@1983-08-19"
+     ],
+     "dogru": [
+      "kanun:2547/m34@1983-08-19"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7716270089149475,
+     "aday_max_kosinus": 0.7716270089149475,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "zamansal"
+    },
+    "Z08b": {
+     "getirilen": [
+      "kanun:2547/m34@2018-06-24",
+      "yonetmelik:21475/gm1@2016-03-23",
+      "kanun:2547/m33@2018-03-06",
+      "kanun:2547/m35@2014-11-26",
+      "kanun:2547/m5@2018-06-24"
+     ],
+     "dogru": [
+      "kanun:2547/m34@2018-06-24"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7695320248603821,
+     "aday_max_kosinus": 0.7695320248603821,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari"
+     ],
+     "tur": "zamansal"
+    },
+    "H01": {
+     "getirilen": [
+      "yonerge:etu-cap/m10@2024-01-04",
+      "yonerge:etu-cap/m9@2017-09-01",
+      "yonerge:etu-cap/m5@2017-09-01",
+      "yonetmelik:15287/m35@2011-09-01",
+      "yonerge:etu-cap/m4@2017-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-cap/m5@2017-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7586098313331604,
+     "aday_max_kosinus": 0.7586098313331604,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_asagi",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_asagi"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H02": {
+     "getirilen": [
+      "yonerge:etu-yandal/m7@2017-09-01",
+      "yonerge:etu-yandal/m6@2017-09-01",
+      "yonetmelik:15287/m36@2011-09-01",
+      "yonetmelik:13948/m18@2010-04-24",
+      "yonetmelik:13948/m21@2010-04-24"
+     ],
+     "dogru": [
+      "yonerge:etu-yandal/m7@2017-09-01",
+      "yonetmelik:13948/m18@2010-04-24"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7105845212936401,
+     "aday_max_kosinus": 0.7105845212936401,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H03": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonerge:etu-hazirlik/m4@2025-10-22",
+      "yonetmelik:21475/m6@2016-03-23",
+      "yonetmelik:21475/m4@2016-03-23",
+      "yonetmelik:15287/m14@2011-09-01"
+     ],
+     "dogru": [
+      "yonerge:etu-hazirlik/m6@2025-10-22",
+      "yonetmelik:21475/m6@2016-03-23"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527263164520264,
+     "aday_max_kosinus": 0.7527263164520264,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H04": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/gm1@2016-09-08",
+      "yonetmelik:42791/m25@2025-12-21",
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:15287/m9@2011-09-01",
+      "yonetmelik:42791/m15@2025-12-21"
+     ],
+     "dogru": [
+      "kanun:2547/m44@2026-08-09",
+      "yonetmelik:15287/m9@2011-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7231804728507996,
+     "aday_max_kosinus": 0.7231804728507996,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H05": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m5@2016-02-11",
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m38@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/m9@2024-06-15",
+      "yonetmelik:15287/m38@2011-09-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7527247667312622,
+     "aday_max_kosinus": 0.7527247667312622,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_asagi",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_asagi"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H06": {
+     "getirilen": [
+      "yonetmelik:24672/m8@2018-06-12",
+      "kanun:2547/gm8@1989-06-17",
+      "yonetmelik:24672/m12@2018-06-12",
+      "kanun:2547/m24@2021-01-01",
+      "kanun:2547/gm15@1981-11-06"
+     ],
+     "dogru": [
+      "yonetmelik:24672/m8@2018-06-12",
+      "kanun:2547/m24@2021-01-01"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7697535753250122,
+     "aday_max_kosinus": 0.7697535753250122,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H07": {
+     "getirilen": [
+      "yonetmelik:21475/m8@2021-05-18",
+      "yonetmelik:21475/m7@2016-03-23",
+      "kanun:2547/m44@2026-08-09",
+      "kanun:2547/m49@2014-11-26",
+      "yonerge:etu-hazirlik/m4@2025-10-22"
+     ],
+     "dogru": [
+      "yonetmelik:21475/m7@2016-03-23",
+      "kanun:2547/m49@2014-11-26"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": true,
+     "max_kosinus": 0.7352604866027832,
+     "aday_max_kosinus": 0.7352604866027832,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_asagi"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "H08": {
+     "getirilen": [
+      "yonetmelik:42791/m18@2025-12-21",
+      "yonetmelik:42791/m20@2025-12-21",
+      "yonetmelik:42791/m4@2025-12-21",
+      "yonetmelik:42791/m5@2025-12-21",
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "dogru": [
+      "yonetmelik:21510/m7@2016-04-20"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsama": false,
+     "max_kosinus": 0.7446197271347046,
+     "aday_max_kosinus": 0.7446197271347046,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "hiyerarsi"
+    },
+    "I01": {
+     "getirilen": [
+      "yonetmelik:15287/gm1@2011-09-01",
+      "yonetmelik:15287/m56@2011-09-01",
+      "kanun:2547/gm58@2011-02-25",
+      "kanun:2547/gm43@1995-06-12",
+      "kanun:2547/gm46@2000-06-28"
+     ],
+     "dogru": [
+      "yonetmelik:15287/gm1@2011-09-01"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7403502464294434,
+     "aday_max_kosinus": 0.7403502464294434,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I02": {
+     "getirilen": [
+      "yonetmelik:13948/m14@2021-04-09",
+      "usul_esas:etu-yatay-gecis/m8@2018-05-10",
+      "yonetmelik:13948/m24@2010-04-24",
+      "usul_esas:etu-yatay-gecis/m11@2015-08-07",
+      "usul_esas:etu-yatay-gecis/m12@2018-01-11"
+     ],
+     "dogru": [
+      "yonetmelik:13948/m14@2021-04-09"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 0.5,
+     "madde_duyarlilik": 0.5,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.6930994987487793,
+     "aday_max_kosinus": 0.6930994987487793,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I03": {
+     "getirilen": [
+      "yonetmelik:21510/gm1@2019-11-22",
+      "yonetmelik:13948/m23@2016-03-18",
+      "kanun:2547/m44@2014-11-26",
+      "yonetmelik:13948/m16@2019-12-21",
+      "yonetmelik:15287/m43@2011-09-01"
+     ],
+     "dogru": [
+      "yonetmelik:21510/gm1@2019-11-22"
+     ],
+     "kesinlik": 0.2,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.7034265995025635,
+     "aday_max_kosinus": 0.7034265995025635,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "I04": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11",
+      "yonetmelik:15287/m38@2011-09-01",
+      "yonerge:etu-ortak-egitim/m37@2016-02-11",
+      "yonerge:etu-ortak-egitim/m16@2016-02-11"
+     ],
+     "dogru": [
+      "yonerge:etu-ortak-egitim/gm1@2016-02-11",
+      "yonerge:etu-ortak-egitim/m10@2016-02-11"
+     ],
+     "kesinlik": 0.4,
+     "duyarlilik": 1.0,
+     "madde_duyarlilik": 1.0,
+     "yururluk_dogrulugu": 1.0,
+     "max_kosinus": 0.8234586715698242,
+     "aday_max_kosinus": 0.8234586715698242,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "intibak"
+    },
+    "C01": {
+     "getirilen": [
+      "yonerge:etu-hazirlik/m25@2026-09-01",
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "yonetmelik:15287/m6@2011-09-01",
+      "yonerge:etu-ortak-egitim/gm4@2020-04-13",
+      "yonerge:etu-ortak-egitim/gm12@2021-01-21"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5873568654060364,
+     "aday_max_kosinus": 0.5873568654060364,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C02": {
+     "getirilen": [
+      "yonerge:etu-ortak-egitim/m42@2024-06-15",
+      "kanun:2547/gm17@1981-11-06",
+      "yonetmelik:15287/m32@2011-09-01",
+      "yonetmelik:15287/m11@2011-09-01",
+      "kanun:2547/em9@2025-12-19"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5690597295761108,
+     "aday_max_kosinus": 0.5690597295761108,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "graf:DAYANAK_yukari",
+      "graf:DAYANAK_yukari",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C03": {
+     "getirilen": [
+      "kanun:2547/m11@2018-03-06",
+      "kanun:2547/m59@1997-07-05",
+      "kanun:2547/em3@2020-10-16",
+      "kanun:2547/m14@1981-11-06",
+      "kanun:2547/m61@1981-11-06"
+     ],
+     "dogru": [],
+     "reddetti": false,
+     "max_kosinus": 0.5639408230781555,
+     "aday_max_kosinus": 0.5639408230781555,
+     "yollar": [
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim",
+      "erisim"
+     ],
+     "tur": "cevaplanamaz"
+    },
+    "C04": {
+     "getirilen": [],
+     "dogru": [],
+     "reddetti": true,
+     "max_kosinus": 0.4884220063686371,
+     "aday_max_kosinus": 0.4884220063686371,
+     "yollar": [],
+     "tur": "cevaplanamaz"
+    }
+   },
+   "ozet": {
+    "tek_madde": {
+     "n": 10,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 1.0,
+     "madde_duyarlilik@5": 1.0,
+     "yururluk_dogrulugu": 1.0
+    },
+    "zamansal": {
+     "n": 16,
+     "kesinlik@5": 0.2,
+     "duyarlilik@5": 1.0,
+     "madde_duyarlilik@5": 1.0,
+     "yururluk_dogrulugu": 1.0
+    },
+    "hiyerarsi": {
+     "n": 8,
+     "kesinlik@5": 0.35,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0,
+     "hiyerarsi_kapsamasi": 0.75
+    },
+    "intibak": {
+     "n": 4,
+     "kesinlik@5": 0.25,
+     "duyarlilik@5": 0.875,
+     "madde_duyarlilik@5": 0.875,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanabilir": {
+     "n": 38,
+     "kesinlik@5": 0.237,
+     "duyarlilik@5": 0.961,
+     "madde_duyarlilik@5": 0.961,
+     "yururluk_dogrulugu": 1.0
+    },
+    "cevaplanamaz": {
+     "n": 4,
+     "reddetme": 0.25
+    }
+   },
+   "sure_sn": 1.56
+  }
+ },
+ "esik_taramasi": [
+  {
+   "esik": 0.4,
+   "A_reddetme": 0.0,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.0,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.425,
+   "A_reddetme": 0.0,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.0,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.45,
+   "A_reddetme": 0.0,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.0,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.475,
+   "A_reddetme": 0.0,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.0,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.5,
+   "A_reddetme": 0.25,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.25,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.525,
+   "A_reddetme": 0.25,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.25,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.55,
+   "A_reddetme": 0.25,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.25,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.575,
+   "A_reddetme": 0.75,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 0.75,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.6,
+   "A_reddetme": 1.0,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 1.0,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.625,
+   "A_reddetme": 1.0,
+   "A_yanlis_red": 0.0,
+   "B_reddetme": 1.0,
+   "B_yanlis_red": 0.0
+  },
+  {
+   "esik": 0.65,
+   "A_reddetme": 1.0,
+   "A_yanlis_red": 0.053,
+   "B_reddetme": 1.0,
+   "B_yanlis_red": 0.053
+  }
+ ]
+}

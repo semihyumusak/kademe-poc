@@ -1,0 +1,94 @@
+{
+ "dugum": 4884,
+ "kenar": 5067,
+ "dugum_etiket": {
+  "Norm": 12,
+  "Birim": 3215,
+  "Surum": 969,
+  "DegisiklikOlayi": 684,
+  "UygulanabilirlikKurali": 4
+ },
+ "kenar_tip": {
+  "DAYANAK": 17,
+  "PARCASI": 3215,
+  "ATIF": 180,
+  "SURUMU": 969,
+  "DEGISTIRIR": 684,
+  "UYGULANIR": 2
+ },
+ "madde_surum": 969,
+ "madde_surum_metinli": 709,
+ "surum_zinciri_uzunluk_dagilimi": {
+  "1": 393,
+  "2": 92,
+  "3": 37,
+  "4": 20,
+  "5": 12,
+  "6": 6,
+  "7": 4,
+  "8": 5,
+  "9": 1,
+  "12": 1,
+  "16": 1
+ },
+ "katman_norm": {
+  "1": 1,
+  "2": 4,
+  "3": 2,
+  "4": 5
+ },
+ "dayanak_zincirleri": {
+  "kanun:2547": [
+   "kanun:2547"
+  ],
+  "yonetmelik:21510": [
+   "yonetmelik:21510",
+   "kanun:2547"
+  ],
+  "yonetmelik:13948": [
+   "yonetmelik:13948",
+   "kanun:2547"
+  ],
+  "yonetmelik:24672": [
+   "yonetmelik:24672",
+   "kanun:2547"
+  ],
+  "yonetmelik:21475": [
+   "yonetmelik:21475",
+   "kanun:2547"
+  ],
+  "yonetmelik:15287": [
+   "yonetmelik:15287",
+   "kanun:2547"
+  ],
+  "yonetmelik:42791": [
+   "yonetmelik:42791",
+   "kanun:2547"
+  ],
+  "yonerge:etu-cap": [
+   "yonerge:etu-cap",
+   "yonetmelik:13948",
+   "yonetmelik:15287",
+   "kanun:2547"
+  ],
+  "yonerge:etu-yandal": [
+   "yonerge:etu-yandal",
+   "yonetmelik:13948",
+   "yonetmelik:15287",
+   "kanun:2547"
+  ],
+  "usul_esas:etu-yatay-gecis": [
+   "usul_esas:etu-yatay-gecis"
+  ],
+  "yonerge:etu-ortak-egitim": [
+   "yonerge:etu-ortak-egitim",
+   "kanun:2547",
+   "yonetmelik:15287"
+  ],
+  "yonerge:etu-hazirlik": [
+   "yonerge:etu-hazirlik",
+   "yonetmelik:21475",
+   "kanun:2547"
+  ]
+ }
+}

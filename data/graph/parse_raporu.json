@@ -1,0 +1,239 @@
+{
+ "normlar": {
+  "kanun:2547": {
+   "madde": 229,
+   "surum": 482,
+   "tarihsel_gozlem": 36,
+   "zincir_uzunlugu": {
+    "1": 132,
+    "2": 43,
+    "3": 19,
+    "4": 14,
+    "5": 6,
+    "6": 5,
+    "7": 2,
+    "8": 5,
+    "9": 1,
+    "12": 1,
+    "16": 1
+   },
+   "dipnot": 107,
+   "yururluk": "1981-11-06",
+   "yururluk_kaynagi": "resmi_gazete"
+  },
+  "yonetmelik:21510": {
+   "madde": 40,
+   "surum": 65,
+   "tarihsel_gozlem": 1,
+   "zincir_uzunlugu": {
+    "1": 22,
+    "2": 12,
+    "3": 5,
+    "4": 1
+   },
+   "dipnot": 0,
+   "yururluk": "2016-04-20",
+   "yururluk_kaynagi": "resmi_gazete"
+  },
+  "yonetmelik:13948": {
+   "madde": 33,
+   "surum": 87,
+   "tarihsel_gozlem": 3,
+   "zincir_uzunlugu": {
+    "1": 13,
+    "2": 7,
+    "3": 3,
+    "4": 4,
+    "5": 3,
+    "6": 1,
+    "7": 2
+   },
+   "dipnot": 0,
+   "yururluk": "2010-04-24",
+   "yururluk_kaynagi": "resmi_gazete"
+  },
+  "yonetmelik:24672": {
+   "madde": 20,
+   "surum": 24,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 16,
+    "2": 4
+   },
+   "dipnot": 0,
+   "yururluk": "2018-06-12",
+   "yururluk_kaynagi": "resmi_gazete"
+  },
+  "yonetmelik:21475": {
+   "madde": 14,
+   "surum": 17,
+   "tarihsel_gozlem": 1,
+   "zincir_uzunlugu": {
+    "1": 12,
+    "2": 1,
+    "3": 1
+   },
+   "dipnot": 0,
+   "yururluk": "2016-03-23",
+   "yururluk_kaynagi": "resmi_gazete"
+  },
+  "yonetmelik:15287": {
+   "madde": 58,
+   "surum": 58,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 58
+   },
+   "dipnot": 0,
+   "yururluk": "2011-09-01",
+   "yururluk_kaynagi": "yururluk_maddesi_akademik"
+  },
+  "yonetmelik:42791": {
+   "madde": 45,
+   "surum": 45,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 45
+   },
+   "dipnot": 0,
+   "yururluk": "2025-12-21",
+   "yururluk_kaynagi": "resmi_gazete"
+  },
+  "yonerge:etu-cap": {
+   "madde": 15,
+   "surum": 16,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 14,
+    "2": 1
+   },
+   "dipnot": 0,
+   "yururluk": "2017-09-01",
+   "yururluk_kaynagi": "yururluk_maddesi_akademik"
+  },
+  "yonerge:etu-yandal": {
+   "madde": 11,
+   "surum": 11,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 11
+   },
+   "dipnot": 0,
+   "yururluk": "2017-09-01",
+   "yururluk_kaynagi": "yururluk_maddesi_akademik"
+  },
+  "usul_esas:etu-yatay-gecis": {
+   "madde": 11,
+   "surum": 19,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 4,
+    "2": 6,
+    "3": 1
+   },
+   "dipnot": 0,
+   "yururluk": "2015-08-07",
+   "yururluk_kaynagi": "senato_karari"
+  },
+  "yonerge:etu-ortak-egitim": {
+   "madde": 62,
+   "surum": 78,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 51,
+    "2": 6,
+    "3": 5
+   },
+   "dipnot": 0,
+   "yururluk": "2016-02-11",
+   "yururluk_kaynagi": "senato_karari"
+  },
+  "yonerge:etu-hazirlik": {
+   "madde": 34,
+   "surum": 67,
+   "tarihsel_gozlem": 0,
+   "zincir_uzunlugu": {
+    "1": 15,
+    "2": 12,
+    "3": 3,
+    "4": 1,
+    "5": 3
+   },
+   "dipnot": 0,
+   "yururluk": "2015-08-07",
+   "yururluk_kaynagi": "senato_karari"
+  }
+ },
+ "sorunlar": [
+  "kanun:2547: 20130831162609.pdf yetersiz ayrıştırıldı (42 madde); atlandı",
+  "kanun:2547: 20190819022638.html yetersiz ayrıştırıldı (0 madde); atlandı",
+  "kanun:2547: 20230324193006.pdf okunamadı (RuntimeError; bozuk ya da PDF olmayan arşiv kopyası)",
+  "kanun:2547: 20231128163422.pdf okunamadı (RuntimeError; bozuk ya da PDF olmayan arşiv kopyası)",
+  "yonetmelik:21510: 20190917142325.html yetersiz ayrıştırıldı (0 madde); atlandı"
+ ],
+ "sayimlar": {
+  "Norm": 12,
+  "Birim": 3215,
+  "Birim_tip": {
+   "madde": 572,
+   "fikra": 1664,
+   "bent": 814,
+   "alt_bent": 165
+  },
+  "Surum": 969,
+  "Surum_metinli": 709,
+  "Surum_mulga": 7,
+  "DegisiklikOlayi": 684,
+  "UygulanabilirlikKurali": 4,
+  "kenarlar": {
+   "DEGISTIRIR": 684,
+   "PARCASI": 3215,
+   "DAYANAK": 17,
+   "ATIF": 180,
+   "UYGULANIR": 2
+  },
+  "baslangic_kaynagi": {
+   "dogum": 445,
+   "tablo": 284,
+   "not": 190,
+   "gozlem": 29,
+   "dipnot": 21
+  },
+  "atif_cozum": {
+   "oz": 135,
+   "acik": 41,
+   "cikarim": 2,
+   "ad": 2
+  },
+  "korpus_disi_kanun_atiflari": {
+   "657": 39,
+   "375": 34,
+   "2914": 29,
+   "5510": 20,
+   "2809": 15,
+   "4505": 12,
+   "5199": 4,
+   "3843": 4,
+   "7100": 2,
+   "1050": 2,
+   "6354": 2,
+   "5237": 2,
+   "3308": 2,
+   "5846": 2,
+   "7179": 2
+  },
+  "surum_zinciri_uzunluk_dagilimi": {
+   "1": 393,
+   "2": 92,
+   "3": 37,
+   "4": 20,
+   "5": 12,
+   "6": 6,
+   "7": 4,
+   "8": 5,
+   "9": 1,
+   "12": 1,
+   "16": 1
+  }
+ }
+}
