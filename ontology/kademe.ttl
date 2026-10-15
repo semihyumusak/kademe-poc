@@ -1,0 +1,98 @@
+@prefix kademe: <https://w3id.org/kademe/ontology#> .
+@prefix eli:    <http://data.europa.eu/eli/ontology#> .
+@prefix akn:    <http://docs.oasis-open.org/legaldocml/ns/akn/3.0#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+<https://w3id.org/kademe/ontology>
+    a owl:Ontology ;
+    rdfs:label "KADEME PoC ontolojisi"@tr ;
+    rdfs:comment "Yükseköğretim mevzuatı için hiyerarşi ve sürüm farkında küçük bir ontoloji. Sınıflar ELI ve Akoma Ntoso kavramlarıyla eşlenmiştir. Araştırma prototipidir."@tr ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    owl:versionInfo "0.1.0" .
+
+# ------------------------------------------------------------------ Sınıflar
+
+kademe:Norm a owl:Class ;
+    rdfs:label "Norm"@tr ;
+    rdfs:comment "Kanun, yönetmelik, yönerge ya da usul ve esaslar gibi bütün bir düzenleyici işlem (soyut eser)."@tr ;
+    rdfs:subClassOf eli:LegalResource ;
+    skos:closeMatch akn:act .
+
+kademe:Birim a owl:Class ;
+    rdfs:label "Birim"@tr ;
+    rdfs:comment "Normun alt bölümü: madde, fıkra, bent ya da alt bent."@tr ;
+    rdfs:subClassOf eli:LegalResourceSubdivision ;
+    skos:closeMatch akn:article , akn:paragraph , akn:point .
+
+kademe:Surum a owl:Class ;
+    rdfs:label "Sürüm"@tr ;
+    rdfs:comment "Bir maddenin belirli bir yürürlük aralığındaki metni (zamansal ifade). ELI'deki eli:LegalExpression ile Akoma Ntoso'daki zaman noktalı (point-in-time) ifade kavramına karşılık gelir."@tr ;
+    rdfs:subClassOf eli:LegalExpression ;
+    skos:closeMatch akn:expression .
+
+kademe:DegisiklikOlayi a owl:Class ;
+    rdfs:label "Değişiklik olayı"@tr ;
+    rdfs:comment "Ekleme, değiştirme, mülga ya da iptal olayı; kaynağı değiştiren kanun/yönetmelik maddesi ya da yargı kararıdır."@tr ;
+    skos:closeMatch akn:passiveModifications .
+
+kademe:UygulanabilirlikKurali a owl:Class ;
+    rdfs:label "Uygulanabilirlik kuralı"@tr ;
+    rdfs:comment "Geçici ya da intibak maddesinden çıkarılan, hangi giriş dönemindeki öğrenciye hangi sürümün uygulanacağını belirleyen kural."@tr ;
+    skos:closeMatch akn:application .
+
+# ------------------------------------------------------------------ Kenarlar
+
+kademe:dayanak a owl:ObjectProperty ;
+    rdfs:label "DAYANAK"@tr ;
+    rdfs:comment "Alt norm, üst normun maddesine (ya da üst norma) dayanılarak çıkarılmıştır."@tr ;
+    rdfs:domain kademe:Norm ;
+    rdfs:range [ owl:unionOf ( kademe:Birim kademe:Norm ) ] ;
+    rdfs:subPropertyOf eli:based_on .
+
+kademe:atif a owl:ObjectProperty ;
+    rdfs:label "ATIF"@tr ;
+    rdfs:domain kademe:Birim ;
+    rdfs:range kademe:Birim ;
+    rdfs:subPropertyOf eli:cites .
+
+kademe:degistirir a owl:ObjectProperty ;
+    rdfs:label "DEGISTIRIR"@tr ;
+    rdfs:domain kademe:DegisiklikOlayi ;
+    rdfs:range kademe:Surum ;
+    skos:closeMatch eli:amends .
+
+kademe:uygulanir a owl:ObjectProperty ;
+    rdfs:label "UYGULANIR"@tr ;
+    rdfs:domain kademe:UygulanabilirlikKurali ;
+    rdfs:range kademe:Surum .
+
+kademe:surumu a owl:ObjectProperty ;
+    rdfs:label "sürümü"@tr ;
+    rdfs:domain kademe:Surum ;
+    rdfs:range kademe:Birim ;
+    skos:closeMatch eli:realizes .
+
+# ------------------------------------------------------------------ Nitelikler
+
+kademe:tur a owl:DatatypeProperty ; rdfs:comment "kanun | yonetmelik | yonerge | usul_esas"@tr ; skos:closeMatch eli:type_document .
+kademe:katman a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:comment "1 kanun, 2 YÖK yönetmeliği, 3 üniversite yönetmeliği, 4 senato yönergesi"@tr .
+kademe:cikaranKurum a owl:DatatypeProperty ; skos:closeMatch eli:passed_by .
+kademe:uygulanabilirlik a owl:DatatypeProperty ; rdfs:comment "devlet | vakif | hepsi"@tr .
+kademe:resmiGazeteSayi a owl:DatatypeProperty .
+kademe:birimTipi a owl:DatatypeProperty ; rdfs:comment "madde | fikra | bent | alt_bent"@tr .
+kademe:numara a owl:DatatypeProperty ; skos:closeMatch eli:number .
+kademe:metin a owl:DatatypeProperty .
+kademe:yururlukBaslangic a owl:DatatypeProperty ; rdfs:range xsd:date ; skos:closeMatch eli:date_applicability .
+kademe:yururlukBitis a owl:DatatypeProperty ; rdfs:range xsd:date ; skos:closeMatch eli:date_no_longer_in_force .
+kademe:durum a owl:DatatypeProperty ; rdfs:comment "yururlukte | mulga"@tr .
+kademe:baslangicKaynagi a owl:DatatypeProperty ; rdfs:comment "Başlangıç tarihinin dayanağı: not | tablo | dipnot | dogum | gozlem"@tr .
+kademe:olayTuru a owl:DatatypeProperty ; rdfs:comment "ekleme | degistirme | mulga | iptal"@tr .
+kademe:tarih a owl:DatatypeProperty ; rdfs:range xsd:date .
+kademe:yururlukTarihi a owl:DatatypeProperty ; rdfs:range xsd:date .
+kademe:kaynak a owl:DatatypeProperty .
+kademe:kosul a owl:DatatypeProperty .
+kademe:etki a owl:DatatypeProperty ; rdfs:comment "onceki_surum | baslangic_ertele"@tr .
