@@ -140,10 +140,12 @@ numarası + başlık + notlardan arındırılmış metin.
   3. ilk 3 tohumdan ATIF (iki yönde) ve DAYANAK (yukarı: üst madde/normun en
      ilgili 2 maddesi; aşağı: bu maddeye/norma dayanan alt normların en ilgili 2
      maddesi) üzerinden 1 atlamalı genişletme yapılır; komşunun yürürlükteki
-     sürümü kendi hibrit skoru × 1,25 ile aday olur;
-  4. katman önceliği: en iyi skorun yarısından yüksek adaylar arasında her
-     katmanın en iyisi önce seçilir, kalan yerler skora göre doldurulur, sonuç
-     üst katmandan alta sıralanır.
+     sürümü kendi hibrit skoruyla aday olur (DAYANAK komşuları × 1,25, aynı
+     norm içi ATIF komşuları önceliksiz);
+  4. katman önceliği: en güçlü 2 doğrudan erişim isabeti korunur; en iyi
+     skorun yarısından yüksek adaylar arasında henüz temsil edilmeyen her
+     katmanın en iyisi eklenir; kalan yerler skora göre doldurulur; sonuç üst
+     katmandan alta sıralanır.
 - **Reddetme** (her iki yapılandırmada aynı): ilk-5'teki en yüksek kosinüs
   0,50'nin altındaysa sonuç boştur. Eşik önceden seçilmiştir; eşik taraması
   `eval/results.json`'da ayrıca raporlanır.
