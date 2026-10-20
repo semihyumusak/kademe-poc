@@ -147,7 +147,7 @@ Düğümler: Norm (tür, katman, kurum, Resmî Gazete bilgisi, uygulanabilirlik:
 
 ### 2.4 Değerlendirme seti YÖKSC (İP3)
 
-En az 300 soru, altı türde dengelenir: tek madde (60), zamansal sürüm çifti (80; aynı soru iki tarihte, farklı doğru sürüm), hiyerarşi (60; iki katmandan hüküm gerektirir), intibak/kohort (40; giriş dönemiyle), çok atlamalı (20; yönerge → yönetmelik → kanun) ve cevaplanamaz (40; mevzuatta karşılığı olmayan ya da sorgu tarihinde henüz düzenlenmemiş konular). Sorular graftan şablonla aday olarak üretilir (değişiklik notu olan maddeler, DAYANAK zincirleri, kurallar), sonra doğal dile elle yazılır; sorgu tarihi ve kohort bilgisi soru metnine gömülür ("2019 güzünde kayıt yaptıran bir öğrenci 2023'te …"). Altın hükümler madde/fıkra düzeyinde, tarih elle; sürüm kimlikleri graftan çözülür ve sabitlenir. Etiketler yürütücü ve bir öğrenci tarafından bağımsız doğrulanır; anlaşma Cohen kappa (Cohen, 1960) ile raporlanır, uyuşmazlıklar üçüncü kişi (hukuk müşavirliği) ile çözülür. Set 100 geliştirme / 200 test olarak bölünür; test bölmesi parametre seçiminde kullanılmaz.
+En az 300 soru, altı türde dengelenir: tek madde (60), zamansal sürüm çifti (80; aynı soru iki tarihte, farklı doğru sürüm), hiyerarşi (60; iki katmandan hüküm gerektirir), intibak/kohort (40; giriş dönemiyle), çok atlamalı (20; yönerge → yönetmelik → kanun) ve cevaplanamaz (40; mevzuatta karşılığı olmayan ya da sorgu tarihinde henüz düzenlenmemiş konular). Sorular graftan şablonla aday olarak üretilir (değişiklik notu olan maddeler, DAYANAK zincirleri, kurallar), sonra doğal dile elle yazılır; sorgu tarihi ve kohort bilgisi soru metnine gömülür ("2019 güzünde kayıt yaptıran bir öğrenci 2023'te …"). Altın hükümler madde/fıkra düzeyinde, tarih elle; sürüm kimlikleri graftan çözülür ve sabitlenir. Etiketler, aynı kılavuzla eğitilmiş iki lisans bursiyeri tarafından birbirinden bağımsız doğrulanır; anlaşma Cohen kappa (Cohen, 1960) ile raporlanır, uyuşmazlıklar yürütücü tarafından, gerektiğinde hukuk müşavirliğine danışılarak çözülür. Set 100 geliştirme / 200 test olarak bölünür; test bölmesi parametre seçiminde kullanılmaz.
 
 ### 2.5 Erişim (İP4)
 
@@ -183,11 +183,11 @@ Tüm hat tek bir betikle (edinim → ayrıştırma → graf → test → değerl
 
 | İP | İş paketinin adı ve hedefleri | Kim | Aylar | Başarı ölçütü | Önem (%) |
 |---|---|---|---|---|---:|
-| 1 | **Külliyat genişletme ve ayrıştırıcının genelleştirilmesi.** Edinim, manifest, yapı ayrıştırma; YÖK yönetmelikleri ve üç üniversite için kural tabanının genişletilmesi. | Yürütücü, YL bursiyeri | 1–4 | ≥ 60 norm, ≥ 20.000 birim edinilip ayrıştırılmış; ≥ 60 birim testi geçiyor; atlanan belge oranı ≤ %5 ve gerekçeli raporlanmış. | 20 |
-| 2 | **Fıkra düzeyi sürümleme, Resmî Gazete'den yeniden oluşturma, ontoloji ve graf.** Değişiklik olayları, uygulanabilirlik kuralları, ELI/AKN hizalı RDF dışa aktarımı. | Yürütücü, YL bursiyeri | 2–6 | ≥ 6.000 madde-sürüm; 100 rastgele sürümün elle kontrolünde metin doğruluğu ≥ %90, yürürlük aralığı doğruluğu ≥ %85 (H1); RDF çıktısı SPARQL ile sorgulanabilir. | 20 |
-| 3 | **YÖKSC değerlendirme seti.** Şablon adayları, doğal dile yazım, çift etiketleme, uyuşmazlık çözümü, bölme. | Yürütücü, lisans bursiyeri, YL bursiyeri | 3–8 | ≥ 300 soru, altı tür; Cohen kappa ≥ 0,80; 100/200 bölme; CC BY 4.0 ile yayım hazır. | 15 |
+| 1 | **Külliyat genişletme ve ayrıştırıcının genelleştirilmesi.** Edinim, manifest, yapı ayrıştırma; YÖK yönetmelikleri ve üç üniversite için kural tabanının genişletilmesi. | Yürütücü, YL bursiyeri, lisans bursiyeri A | 1–4 | ≥ 60 norm, ≥ 20.000 birim edinilip ayrıştırılmış; ≥ 60 birim testi geçiyor; atlanan belge oranı ≤ %5 ve gerekçeli raporlanmış. | 20 |
+| 2 | **Fıkra düzeyi sürümleme, Resmî Gazete'den yeniden oluşturma, ontoloji ve graf.** Değişiklik olayları, uygulanabilirlik kuralları, ELI/AKN hizalı RDF dışa aktarımı. | Yürütücü, YL bursiyeri, lisans bursiyeri A | 2–6 | ≥ 6.000 madde-sürüm; 100 rastgele sürümün elle kontrolünde metin doğruluğu ≥ %90, yürürlük aralığı doğruluğu ≥ %85 (H1); RDF çıktısı SPARQL ile sorgulanabilir. | 20 |
+| 3 | **YÖKSC değerlendirme seti.** Şablon adayları, doğal dile yazım, çift etiketleme, uyuşmazlık çözümü, bölme. | Yürütücü, lisans bursiyerleri B ve C, YL bursiyeri | 3–8 | ≥ 300 soru, altı tür; Cohen kappa ≥ 0,80; 100/200 bölme; CC BY 4.0 ile yayım hazır. | 15 |
 | 4 | **Graf temelli erişim ve deneyler.** Zamansal sorgu anlama, çok atlamalı genişletme, yeniden sıralama, reddetme kalibrasyonu; bileşen ayrıştırması; istatistiksel analiz. | Yürütücü, YL bursiyeri | 5–10 | Test bölmesinde zamansal duyarlılık@5 artışı ≥ 0,20 ve yürürlük doğruluğu ≥ 0,95 (H2); hiyerarşi kapsaması ≥ 0,85 (H3); farklar %95 düzeyinde anlamlı; sonuç tabloları otomatik üretiliyor. | 25 |
-| 5 | **Doğrulanabilir cevap üretimi, uzman değerlendirmesi ve THS 4 doğrulaması.** Atıf denetimli üretim, 50 soruluk uzman puanlaması, uçtan uca yeniden üretilebilir çalıştırma. | Yürütücü, YL bursiyeri | 8–12 | Geçersiz atıf oranı düz RAG'e göre ≥ %50 düşük (H4); reddetme ≥ 0,90, yanlış reddetme ≤ 0,05; hat bağımsız makinede baştan sona çalışıp aynı tabloları üretiyor; kod, graf, set ve ontoloji açık lisansla yayımlanmış. | 20 |
+| 5 | **Doğrulanabilir cevap üretimi, uzman değerlendirmesi ve THS 4 doğrulaması.** Atıf denetimli üretim, 50 soruluk uzman puanlaması, uçtan uca yeniden üretilebilir çalıştırma. | Yürütücü, YL bursiyeri, lisans bursiyeri C | 8–12 | Geçersiz atıf oranı düz RAG'e göre ≥ %50 düşük (H4); reddetme ≥ 0,90, yanlış reddetme ≤ 0,05; hat bağımsız makinede baştan sona çalışıp aynı tabloları üretiyor; kod, graf, set ve ontoloji açık lisansla yayımlanmış. | 20 |
 
 İş paketlerinin toplam süresi 12 aydır; İP1–İP2 ve İP3–İP4 kısmen örtüşür (veri hazırlığı ile set geliştirme paralel yürür).
 
@@ -203,9 +203,9 @@ Tüm hat tek bir betikle (edinim → ayrıştırma → graf → test → değerl
 
 ### 3.3 Araştırma Olanakları
 
-Proje, ön çalışmada kullanılan altyapıyla yürütülebilir niteliktedir: geliştirme ve BM25/bge-m3 deneyleri iş istasyonu düzeyinde donanımda çalışmaktadır. Çapraz kodlayıcı ve 8–14 milyar parametreli BDM deneyleri için [TOBB ETÜ'nün mevcut GPU sunucusu / bulut GPU hizmet alımı — bütçede 6.000 TL] kullanılacaktır. Kurumun hukuk müşavirliği ve öğrenci işleri birimleri, elle kontrol ve uzman değerlendirmesi için [ön görüşme yapıldı / yapılacak]. Ücretli API gerekmez.
+Proje, ön çalışmada kullanılan altyapıyla yürütülebilir niteliktedir: geliştirme ve BM25/bge-m3 deneyleri iş istasyonu düzeyinde donanımda çalışmaktadır. Çapraz kodlayıcı ve 8–14 milyar parametreli BDM deneyleri için [TOBB ETÜ'nün mevcut GPU sunucusu — model/adet] kullanılacaktır; bütçede hesaplama hizmeti alımı yoktur. Kurumun hukuk müşavirliği ve öğrenci işleri birimleri, elle kontrol ve uzman değerlendirmesi için [ön görüşme yapıldı / yapılacak]. Ücretli API gerekmez.
 
-**Proje ekibi.** Yürütücü (bilgi grafları, anlamsal web ve erişim üzerine [n] yayın; ön çalışmanın geliştiricisi), bir yüksek lisans bursiyeri (ayrıştırıcı, graf ve erişim kodu; tez konusu projeyle ilişkili) ve bir lisans bursiyeri (soru yazımı ve etiketleme). Etiket doğrulama ve uzman değerlendirmesi yürütücü kurumun ilgili birimleriyle yapılır.
+**Proje ekibi.** Yürütücü (bilgi grafları, anlamsal web ve erişim üzerine [n] yayın; ön çalışmanın geliştiricisi), bir yüksek lisans bursiyeri (ayrıştırıcı, graf ve erişim kodu; tez konusu projeyle ilişkili) ve üç lisans bursiyeri: A ayrıştırıcı testleri ve elle kontrol (İP1–İP2), B ve C birbirinden bağımsız iki etiketleyici olarak YÖKSC'nin yazımı ve doğrulanması (İP3), C ayrıca uzman değerlendirmesi formları (İP5). İki bağımsız lisans etiketleyicisi, anlaşma ölçümünün yürütücünün kendi etiketlerinden bağımsız yapılmasını sağlar; yürütücü uyuşmazlıkları çözer. Uzman değerlendirmesi yürütücü kurumun hukuk müşavirliği ve öğrenci işleriyle yapılır.
 
 ---
 
@@ -254,7 +254,7 @@ Proje, ön çalışmada kullanılan altyapıyla yürütülebilir niteliktedir: g
 
 **5. Kişisel veri ve etik.** Mevzuat metinleri kişisel veri içermez. Uzman değerlendirmesi anonimdir; yalnızca puanlar ve serbest yorumlar, kimlik bilgisi olmadan saklanır. İnsan katılımcı araştırması niteliği taşımadığı değerlendirilmekle birlikte etik kurul gerekliliği kurumla teyit edilecektir. Kullanılan BDM'ler açık ağırlıklıdır ve yerelde çalıştırılır; hiçbir veri üçüncü taraf API'lerine gönderilmez.
 
-**6. Sorumluluk.** Veri yönetiminden proje yürütücüsü sorumludur; yüksek lisans bursiyeri depo ve manifest bütünlüğünü, lisans bursiyeri etiketleme kayıtlarını tutar.
+**6. Sorumluluk.** Veri yönetiminden proje yürütücüsü sorumludur; yüksek lisans bursiyeri depo ve manifest bütünlüğünü, lisans bursiyerleri elle kontrol ve etiketleme kayıtlarını tutar.
 
 ---
 
@@ -312,10 +312,11 @@ Destek üst limiti (1 Şubat 2026 itibarıyla, burs dahil): 150.000 TL/yıl. Ön
 
 | Kalem | Açıklama ve gerekçe | Tutar (TL) |
 |---|---|---:|
-| Bursiyer — Yüksek lisans öğrencisi (1 kişi, 12 ay × 9.500 TL) | İP1–İP5'te ayrıştırıcı, graf, erişim ve cevap üretimi kodunun geliştirilmesi; tez konusu projeyle ilişkili. Ücret karşılığı çalışmayan YL bursiyeri üst sınırı (22.500 TL/ay) altındadır. | 114.000 |
-| Bursiyer — Lisans öğrencisi (1 kişi, 4 ay × 6.000 TL) | İP3'te soru yazımı, bağımsız etiketleme ve uyuşmazlık kayıtlarının tutulması (aylar 4–7). | 24.000 |
-| Hizmet alımı — Bulut GPU hesaplama | İP4–İP5'te çapraz kodlayıcı ve 8–14 milyar parametreli açık BDM deneyleri için saatlik GPU kiralama (tahminen 150 GPU-saat). Kurumun GPU sunucusu yeterli olursa bu kalem kullanılmaz. | 6.000 |
+| Bursiyer — Yüksek lisans öğrencisi (1 kişi, 12 ay × 6.000 TL) | İP1–İP5'te ayrıştırıcı, graf, erişim ve cevap üretimi kodunun geliştirilmesi ve lisans bursiyerlerinin günlük eşgüdümü; tez konusu projeyle ilişkili. Ücret karşılığı çalışmayan YL bursiyeri üst sınırı (22.500 TL/ay) altındadır. | 72.000 |
+| Bursiyer — Lisans öğrencisi A (1 kişi, 6 ay × 6.000 TL) | İP1–İP2'de ayrıştırıcı birim testlerinin yazılması, atlanan belgelerin incelenmesi ve 100 sürümlük elle kontrol kayıtlarının tutulması (aylar 2–7). | 36.000 |
+| Bursiyer — Lisans öğrencisi B (1 kişi, 3 ay × 6.000 TL) | İP3'te soru yazımı ve birinci bağımsız etiketleme (aylar 4–6). | 18.000 |
+| Bursiyer — Lisans öğrencisi C (1 kişi, 3 ay × 6.000 TL) | İP3'te ikinci bağımsız etiketleme (B'den bağımsız; anlaşma ölçümü için) ve uyuşmazlık kayıtları; İP5'te uzman değerlendirmesi formlarının hazırlanması (aylar 5–7). | 18.000 |
 | Seyahat — Yurt içi bilimsel toplantı | Sonuçların ulusal bir konferansta sunulması (saha çalışması dışı yurt içi seyahat üst sınırı). | 5.750 |
 | **Toplam** | | **149.750** |
 
-Makine-teçhizat ve sarf malzemesi talebi yoktur; geliştirme mevcut iş istasyonlarında yapılır. Ücretli API kullanılmaz. Proje Teşvik İkramiyesi 1002-A'da ödenmemektedir.
+Aynı anda en fazla üç lisans bursiyeri görev alır (üst sınır dört). Lisans bursiyerleri Türkiye'de bir yükseköğretim kurumunun lisans programında kayıtlı olmalı ve ücret karşılığı çalışmamalıdır. Çapraz kodlayıcı ve 8–14 milyar parametreli açık BDM deneyleri kurumun mevcut GPU altyapısında yürütülür; makine-teçhizat, sarf malzemesi ve hizmet alımı talebi yoktur. Ücretli API kullanılmaz. Proje Teşvik İkramiyesi 1002-A'da ödenmemektedir.
