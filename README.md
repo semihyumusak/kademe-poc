@@ -5,7 +5,7 @@ hiyerarşi ve sürüm farkında, graf temelli erişim yaklaşımının (KADEME) 
 ama uçtan uca ölçülebilir bir kavram kanıtıdır. Hukuki görüş ya da danışmanlık
 niteliği taşımaz; metinler resmî kaynakların yerine geçmez.
 
-Tanım belgesi: [SPEC.md](SPEC.md) · Algoritmalar: [docs/algoritma.md](docs/algoritma.md)
+Tanım belgesi: [SPEC.md](SPEC.md) · Algoritmalar: [docs/algoritma.md](docs/algoritma.md) · 1002-A proje önerisi taslağı: [docs/proje_onerisi_1002A.md](docs/proje_onerisi_1002A.md)
 
 ## Amaç
 
