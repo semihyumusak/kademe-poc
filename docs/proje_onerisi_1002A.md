@@ -288,6 +288,8 @@ Edge, D., Trinh, H., Cheng, N., Bradley, J., Chao, A., Mody, A., Truitt, S. ve L
 
 Guha, N., Nyarko, J., Ho, D. E., Ré, C., Chilton, A., Narayana, A., ... Li, Z. (2023). LegalBench: A collaboratively built benchmark for measuring legal reasoning in large language models. *Advances in Neural Information Processing Systems*, 36. arXiv:2308.11462.
 
+Krippendorff, K. (2018). *Content analysis: An introduction to its methodology* (4. bs.). SAGE.
+
 Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., ... Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems*, 33, 9459–9474. arXiv:2005.11401.
 
 Magesh, V., Surani, F., Dahl, M., Suzgun, M., Manning, C. D. ve Ho, D. E. (2025). Hallucination-free? Assessing the reliability of leading AI legal research tools. *Journal of Empirical Legal Studies*, 22(2). arXiv:2405.20362.
@@ -298,9 +300,11 @@ Niklaus, J., Matoshi, V., Rani, P., Galassi, A., Stürmer, M. ve Chalkidis, I. (
 
 Palmirani, M. ve Vitali, F. (2011). Akoma-Ntoso for legal documents. G. Sartor, M. Palmirani, E. Francesconi ve M. A. Biasiotti (Ed.), *Legislative XML for the Semantic Web* içinde (s. 75–100). Springer. DOI: 10.1007/978-94-007-1887-6_6
 
+Passonneau, R. J. (2006). Measuring agreement on set-valued items (MASI) for semantic and pragmatic annotation. *Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC 2006)*, 831–836.
+
 Peng, B., Zhu, Y., Liu, Y., Bo, X., Shi, H., Hong, C., Zhang, Y. ve Tang, S. (2024). Graph retrieval-augmented generation: A survey. arXiv:2408.08921.
 
-Pipitone, N. ve Alami, R. H. (2024). LegalBench-RAG: A benchmark for retrieval-augmented generation in the legal domain. arXiv:2408.10343.
+Pipitone, N. ve Houir Alami, R. (2024). LegalBench-RAG: A benchmark for retrieval-augmented generation in the legal domain. arXiv:2408.10343.
 
 Robertson, S. ve Zaragoza, H. (2009). The probabilistic relevance framework: BM25 and beyond. *Foundations and Trends in Information Retrieval*, 3(4), 333–389. DOI: 10.1561/1500000019
 
