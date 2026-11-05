@@ -230,7 +230,7 @@ Proje, ön çalışmada kullanılan altyapıyla yürütülebilir niteliktedir: g
 
 ## BELİRTMEK İSTEDİĞİNİZ DİĞER KONULAR
 
-Ön çalışma (KADEME PoC) ayrıştırıcı birim testleri, graf istatistikleri, bileşen ayrıştırması ve reddetme eşiği taramasıyla birlikte açık lisansla yayımlanmıştır (Yumuşak, 2026); Tablo 1'deki sonuçlar bu depodaki betikle yeniden üretilebilir. Ön çalışmanın bilinen sınırları (küçük set, geliştirme bölmesi yokluğu, madde düzeyi sürümleme, sorgu tarihinin soruyla verilmesi, cevap üretimi yokluğu) bu önerinin İP2–İP5 hedeflerini doğrudan belirlemiştir. Proje insan katılımcı verisi toplamaz; uzman puanlaması anonim, kurum içi ve yalnızca sistem çıktısına ilişkindir; etik kurul gerekliliği başvuru öncesinde kurumun etik kuruluyla teyit edilecektir.
+Ön çalışma (KADEME PoC) ayrıştırıcı birim testleri, graf istatistikleri, bileşen ayrıştırması ve reddetme eşiği taramasıyla birlikte açık lisansla yayımlanmıştır (Yumuşak, 2026; github.com/semihyumusak/kademe-poc); Tablo 1'deki sonuçlar bu depodaki betikle yeniden üretilebilir. Ön çalışmanın bilinen sınırları (küçük set, geliştirme bölmesi yokluğu, madde düzeyi sürümleme, sorgu tarihinin soruyla verilmesi, cevap üretimi yokluğu) bu önerinin İP2–İP5 hedeflerini doğrudan belirlemiştir. Proje insan katılımcı verisi toplamaz; uzman puanlaması anonim, kurum içi ve yalnızca sistem çıktısına ilişkindir; etik kurul gerekliliği başvuru öncesinde kurumun etik kuruluyla teyit edilecektir.
 
 *(Kelime sayısı: yaklaşık 80)*
 
